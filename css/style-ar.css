@@ -1,4 +1,7 @@
-/* Background color Variables */
+/* Media */
+/* // Media */
+/* color Variables */
+/* // color Variables */
 /*Media Query Mixin For Help*/
 /* Prefix Mixin */
 @import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
@@ -24,6 +27,10 @@ ol {
   background-color: #585858;
 }
 
+.bg-gray3 {
+  background-color: #eee;
+}
+
 .bg-white {
   background-color: #ffffff;
 }
@@ -46,6 +53,10 @@ ol {
   color: #585858;
 }
 
+.text-gray3 {
+  color: #eee;
+}
+
 .text-white {
   color: #ffffff;
 }
@@ -65,7 +76,6 @@ ol {
   width: 18px;
 }
 
-/* Track */
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #fca31b;
@@ -81,6 +91,7 @@ ol {
 @media screen and (max-width: 767px) {
   body {
     font-size: 12px;
+    padding-top: 80px;
   }
   .h3 {
     font-size: 1.2rem;
@@ -612,7 +623,6 @@ ol {
 @media screen and (max-width: 767px) {
   .main-search {
     padding: 3rem 0 0 0;
-    margin-top: 78px;
   }
   .main-search .head-section {
     font-size: 2rem;
@@ -928,9 +938,6 @@ ol {
 /* // Member */
 /* Media */
 @media screen and (max-width: 767px) {
-  .members {
-    padding-top: 80px;
-  }
   .members .members__wave .member__title span {
     font-size: 14px;
   }
@@ -998,6 +1005,97 @@ ol {
 }
 
 /* // Media */
+/* member-profile */
+.member-profile .member-head .member__profile-img img {
+  max-width: 140px;
+  height: auto;
+  border: 1px solid #585858;
+  padding: 2.5px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.member-profile .member-head .member__profile-img img:hover {
+  background-color: #fca31b;
+}
+
+.member-profile .member-details .about .about__head span {
+  background-color: #fca31b;
+  border-radius: 0 15px 0 0;
+  padding: 4px 15px 0 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+}
+
+.member-profile .member-details .about .about__head span svg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: -10px;
+}
+
+.member-profile .member-details .about .about__body {
+  border: 1px solid #585858;
+  border-radius: 15px 0 15px 15px;
+  overflow: hidden;
+}
+
+.member-profile .member-details .about .about__body p {
+  padding: 15px;
+  background-color: #eee;
+  color: #585858;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.member-profile .member-details .attached {
+  border: 1px solid #585858;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.member-profile .member-details .attached .accordion .card:not(:last-of-type) {
+  border-bottom: 1px solid #585858;
+}
+
+.member-profile .member-details .attached .accordion .card:first-of-type {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.member-profile .member-details .attached .accordion .card:last-of-type {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.member-profile .member-details .attached .accordion .card .card-header {
+  background-color: #ffffff;
+  border-bottom: none;
+}
+
+.member-profile .member-details .attached .accordion .card .card-header .btn-link--custom {
+  text-decoration: none;
+  color: #fca31b;
+}
+
+.member-profile .member-details .attached .accordion .card .card-header .btn-link--custom .expanded {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  width: 22px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.member-profile .member-details .attached .accordion .card .card-header .btn-link--custom[aria-expanded="true"] .expanded {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+/* // member-profile */
 footer {
   border-top: 1px solid #fca31b;
   border-bottom: 1px solid #fca31b;
