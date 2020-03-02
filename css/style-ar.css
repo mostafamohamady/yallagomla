@@ -1170,6 +1170,7 @@ ol {
   border: 1px solid #585858;
   border-radius: 15px 0 15px 15px;
   padding: 15px 35px;
+  margin-bottom: 30px;
 }
 
 .member-profile .client-rating .client__posts .client__post .client__data {
@@ -1217,6 +1218,10 @@ ol {
 
 .member-profile .client-rating .client__posts .client__post .client__data .post__share {
   border-radius: 50%;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__rate .rate svg {
+  width: 14px;
 }
 
 /* // member-profile */
