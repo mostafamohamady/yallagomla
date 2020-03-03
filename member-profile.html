@@ -2173,7 +2173,8 @@
 
     <script>
       var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 3,
+        slidesPerView: 4,
+
         direction: getDirection(),
         navigation: {
           nextEl: ".swiper-button-next",
@@ -2183,12 +2184,26 @@
           resize: function() {
             swiper.changeDirection(getDirection());
           }
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+          }
         }
       });
 
       function getDirection() {
         var windowWidth = window.innerWidth;
-        var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
+        var direction = window.innerWidth <= 760 ? "horizontal" : "horizontal";
 
         return direction;
       }
