@@ -88,7 +88,7 @@ ol {
 }
 
 /*  // scrollbar*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   body {
     font-size: 12px;
     padding-top: 80px;
@@ -496,7 +496,7 @@ ol {
 
 /* // header */
 /* responsive */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .yalla-header .navbar {
     position: fixed;
     left: 0;
@@ -527,15 +527,15 @@ ol {
   }
 }
 
-@media screen and (max-width: 991px) {
-  .yalla-header .navbar .nav-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+/* @media screen and (max-width: 991px) {
+  .yalla-header {
+    .navbar {
+      .nav-box {
+        flex-direction: column;
+      }
+    }
   }
-}
-
+} */
 /* // responseive */
 /* Start Index */
 .main-search {
@@ -637,7 +637,7 @@ ol {
 
 /* End Index */
 /* Media */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .main-search {
     padding: 3rem 0 0 0;
   }
@@ -1036,6 +1036,10 @@ ol {
   background-color: #fca31b;
 }
 
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide img {
+  height: 350px;
+}
+
 .member-profile .member-details .about .about__body {
   border: 1px solid #585858;
   border-radius: 15px 0 15px 15px;
@@ -1218,10 +1222,99 @@ ol {
 
 .member-profile .client-rating .client__posts .client__post .client__data .post__share {
   border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__data .post__share svg path {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__data .post__share:hover {
+  background-color: #fca31b;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__data .post__share:hover svg path {
+  fill: #ffffff;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__rate {
+  border-radius: 15px;
+  padding: 13px 0;
 }
 
 .member-profile .client-rating .client__posts .client__post .client__rate .rate svg {
   width: 14px;
+}
+
+.member-profile .client-rating .rate-container {
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 1px solid #585858;
+  overflow: hidden;
+}
+
+.member-profile .client-rating .rate-container .rate-container__top {
+  padding: 15%;
+  background-color: #aaa;
+  position: relative;
+  min-height: 220px;
+}
+
+.member-profile .client-rating .rate-container .rate-container__top .rate__score {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.member-profile .client-rating .rate-container .rate-container__top .rate__score .number {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.member-profile .client-rating .rate-container .rate-container__top .rate__score .stars svg {
+  width: 12px;
+}
+
+.member-profile .client-rating .rate-container .rate-container__top .rate__score .stars svg path {
+  fill: #ffffff;
+}
+
+.member-profile .client-rating .rate-container .rate-container__bottom {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #585858;
+}
+
+.member-profile .client-rating .rate-container .rate-container__bottom .btn--custom {
+  background-color: #ffffff;
+  color: #585858;
+  border-radius: 25px;
+  -webkit-margin-end: 5px;
+          margin-inline-end: 5px;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.member-profile .client-rating .rate-container .rate-container__bottom .btn--custom svg path {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.member-profile .client-rating .rate-container .rate-container__bottom .btn--custom:hover {
+  background-color: #fca31b;
+  color: #ffffff;
+}
+
+.member-profile .client-rating .rate-container .rate-container__bottom .btn--custom:hover svg path {
+  fill: #ffffff;
 }
 
 /* // member-profile */
