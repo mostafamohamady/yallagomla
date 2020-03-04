@@ -1023,7 +1023,18 @@ ol {
 
 /* // Media */
 /* member-profile */
+.member-profile .member-head .member__profile-img {
+  position: relative;
+  min-height: 100px;
+}
+
 .member-profile .member-head .member__profile-img img {
+  position: absolute;
+  bottom: -45px;
+  z-index: 3;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   max-width: 140px;
   height: auto;
   border: 1px solid #585858;
@@ -1318,6 +1329,8 @@ ol {
 }
 
 /* // member-profile */
+/* Media */
+/* // Media */
 footer {
   border-top: 1px solid #fca31b;
   border-bottom: 1px solid #fca31b;
