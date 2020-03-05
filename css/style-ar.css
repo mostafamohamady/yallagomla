@@ -1047,8 +1047,57 @@ ol {
   background-color: #fca31b;
 }
 
-.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide img {
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom {
+  position: relative;
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom .slide__popup {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: #fca31b;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom .slide__popup:hover {
+  background-color: #ffffff;
+  border-color: #fca31b;
+  -webkit-transform: rotate(-220deg);
+          transform: rotate(-220deg);
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom .slide__popup:hover i {
+  color: #fca31b;
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom .slide__popup i {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom img {
   height: 350px;
+}
+
+.member-profile .member-carousel .swiper-container--custom .swiper-button-next--custom:after,
+.member-profile .member-carousel .swiper-container--custom .swiper-button-prev--custom:after {
+  color: #fca31b;
 }
 
 .member-profile .member-details .about .about__body {
@@ -1329,6 +1378,12 @@ ol {
 }
 
 /* // member-profile */
+/* member popup */
+.mfp-wrap .mfp-container .mfp-content .mfp-img {
+  width: 80vw;
+}
+
+/*// member popup */
 /* Media */
 /* // Media */
 footer {

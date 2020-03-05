@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-rtl.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
     <link rel="stylesheet" href="./css/style-ar.css" />
     <!-- //Styles -->
   </head>
@@ -131,40 +135,30 @@
         <!-- member carousel -->
         <div class="member-carousel mt-3">
           <div class="swiper-container swiper-container--custom">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/001.png" alt="" />
+            <div class="swiper-wrapper popup-gallery">
+              <div class="swiper-slide swiper-slide--custom ">
+                <a href="imges/shop/001.png" class="slide__popup"><i class="fas fa-plus"></i></a>
+                <img class="img-fluid w-100" src="imges/shop/001.png" alt="member-photo" />
               </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/002.png" alt="" />
+              <div class="swiper-slide swiper-slide--custom ">
+                <a href="imges/shop/002.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
+                <img class="img-fluid w-100" src="imges/shop/002.png" alt="member-photo" />
               </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/003.png" alt="" />
+              <div class="swiper-slide swiper-slide--custom ">
+                <a href="imges/shop/003.png" class="slide__popup"><i class="fas fa-plus"></i></a>
+                <img class="img-fluid w-100" src="imges/shop/003.png" alt="member-photo" />
               </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/004.png" alt="" />
+              <div class="swiper-slide swiper-slide--custom ">
+                <a href="imges/shop/004.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
+                <img class="img-fluid w-100" src="imges/shop/004.png" alt="member-photo" />
               </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/005.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/001.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/002.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/003.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/004.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img class="img-fluid w-100" src="imges/shop/005.png" alt="" />
+              <div class="swiper-slide swiper-slide--custom ">
+                <a href="imges/shop/005.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
+                <img class="img-fluid w-100" src="imges/shop/005.png" alt="member-photo" />
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next--custom swiper-button-next "></div>
+            <div class="swiper-button-prev swiper-button-prev--custom"></div>
           </div>
         </div>
         <!-- // member carousel -->
@@ -2167,6 +2161,7 @@
     <!--  Js inclouds  -->
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <!-- <script src="./js/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap-rtl.min.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
@@ -2190,7 +2185,7 @@
             slidesPerView: 1
           },
           "@0.75": {
-            slidesPerView: 2
+            slidesPerView: 1
           },
           "@1.00": {
             slidesPerView: 2
@@ -2207,6 +2202,18 @@
 
         return direction;
       }
+    </script>
+    <script>
+      $(".popup-gallery").magnificPopup({
+        delegate: ".swiper-slide > a",
+        type: "image",
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+        }
+      });
+      //# sourceURL=pen.js
     </script>
 
     <script src="js/main.js"></script>
