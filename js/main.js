@@ -9,7 +9,7 @@ $(document).ready(function() {
   }
 });
 
-var swiper = new Swiper(".swiper-container", {
+var member1 = new Swiper(".member-1", {
   slidesPerView: 4,
 
   direction: getDirection(),
@@ -19,7 +19,7 @@ var swiper = new Swiper(".swiper-container", {
   },
   on: {
     resize: function() {
-      swiper.changeDirection(getDirection());
+      member1.changeDirection(getDirection());
     }
   },
   breakpoints: {
@@ -38,8 +38,9 @@ var swiper = new Swiper(".swiper-container", {
   }
 });
 
+
 function getDirection() {
-  var windowWidth = window.innerWidth;
+ 
   var direction = window.innerWidth <= 760 ? "horizontal" : "horizontal";
 
   return direction;

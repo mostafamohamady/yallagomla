@@ -1246,6 +1246,12 @@ ol {
   border: 1px solid #585858;
   max-width: 80px;
   padding: 2px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.member-profile .client-rating .client__posts .client__post .client__data img:hover {
+  background-color: #fca31b;
 }
 
 .member-profile .client-rating .client__posts .client__post .client__data .rate-number {
