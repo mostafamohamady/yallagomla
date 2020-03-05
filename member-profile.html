@@ -125,7 +125,7 @@
             <div class="member__profile-img text-center">
               <img
                 class="rounded-circle img-fluid "
-                src="http://via.placeholder.com/400x400"
+                src="imges/shop/007.png"
                 alt="member-profile-img"
               />
             </div>
@@ -137,24 +137,54 @@
           <div class="swiper-container swiper-container--custom">
             <div class="swiper-wrapper popup-gallery">
               <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/001.png" class="slide__popup"><i class="fas fa-plus"></i></a>
-                <img class="img-fluid w-100" src="imges/shop/001.png" alt="member-photo" />
+                <a href="imges/shop/001.png" class="slide__popup"
+                  ><i class="fas fa-plus"></i
+                ></a>
+                <img
+                  class="img-fluid w-100"
+                  src="imges/shop/001.png"
+                  alt="member-photo"
+                />
               </div>
               <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/002.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
-                <img class="img-fluid w-100" src="imges/shop/002.png" alt="member-photo" />
+                <a href="imges/shop/002.png" class="slide__popup"
+                  ><i class="fas fa-plus"></i>
+                </a>
+                <img
+                  class="img-fluid w-100"
+                  src="imges/shop/002.png"
+                  alt="member-photo"
+                />
               </div>
               <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/003.png" class="slide__popup"><i class="fas fa-plus"></i></a>
-                <img class="img-fluid w-100" src="imges/shop/003.png" alt="member-photo" />
+                <a href="imges/shop/003.png" class="slide__popup"
+                  ><i class="fas fa-plus"></i
+                ></a>
+                <img
+                  class="img-fluid w-100"
+                  src="imges/shop/003.png"
+                  alt="member-photo"
+                />
               </div>
               <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/004.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
-                <img class="img-fluid w-100" src="imges/shop/004.png" alt="member-photo" />
+                <a href="imges/shop/004.png" class="slide__popup"
+                  ><i class="fas fa-plus"></i>
+                </a>
+                <img
+                  class="img-fluid w-100"
+                  src="imges/shop/004.png"
+                  alt="member-photo"
+                />
               </div>
               <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/005.png" class="slide__popup"><i class="fas fa-plus"></i> </a>
-                <img class="img-fluid w-100" src="imges/shop/005.png" alt="member-photo" />
+                <a href="imges/shop/005.png" class="slide__popup"
+                  ><i class="fas fa-plus"></i>
+                </a>
+                <img
+                  class="img-fluid w-100"
+                  src="imges/shop/005.png"
+                  alt="member-photo"
+                />
               </div>
             </div>
             <div class="swiper-button-next--custom swiper-button-next "></div>
@@ -1060,7 +1090,7 @@
                     >
                       <img
                         class="rounded-circle"
-                        src="http://via.placeholder.com/400x400"
+                        src="imges/shop/person.png"
                         alt="client-img"
                       />
                       <div
@@ -1334,7 +1364,7 @@
                     >
                       <img
                         class="rounded-circle"
-                        src="http://via.placeholder.com/400x400"
+                        src="imges/shop/person.png"
                         alt="client-img"
                       />
                       <div
@@ -1608,7 +1638,7 @@
                     >
                       <img
                         class="rounded-circle"
-                        src="http://via.placeholder.com/400x400"
+                        src="imges/shop/person.png"
                         alt="client-img"
                       />
                       <div
@@ -2165,57 +2195,7 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap-rtl.min.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 4,
-
-        direction: getDirection(),
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-        on: {
-          resize: function() {
-            swiper.changeDirection(getDirection());
-          }
-        },
-        breakpoints: {
-          "@0.00": {
-            slidesPerView: 1
-          },
-          "@0.75": {
-            slidesPerView: 1
-          },
-          "@1.00": {
-            slidesPerView: 2
-          },
-          "@1.50": {
-            slidesPerView: 2
-          }
-        }
-      });
-
-      function getDirection() {
-        var windowWidth = window.innerWidth;
-        var direction = window.innerWidth <= 760 ? "horizontal" : "horizontal";
-
-        return direction;
-      }
-    </script>
-    <script>
-      $(".popup-gallery").magnificPopup({
-        delegate: ".swiper-slide > a",
-        type: "image",
-        gallery: {
-          enabled: true,
-          navigateByImgClick: true,
-          preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        }
-      });
-      //# sourceURL=pen.js
-    </script>
-
+    
     <script src="js/main.js"></script>
     <!-- // Js inclouds -->
   </body>
