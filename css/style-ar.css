@@ -1028,6 +1028,10 @@ ol {
   min-height: 100px;
 }
 
+.member-profile .member-head .member__profile-img h2 {
+  font-size: 1.4rem;
+}
+
 .member-profile .member-head .member__profile-img img {
   position: absolute;
   bottom: -45px;
@@ -1092,7 +1096,7 @@ ol {
 }
 
 .member-profile .member-carousel .swiper-container--custom .swiper-wrapper .swiper-slide--custom img {
-  height: 350px;
+  height: 500px;
 }
 
 .member-profile .member-carousel .swiper-container--custom .swiper-button-next--custom:after,
@@ -1254,6 +1258,10 @@ ol {
   background-color: #fca31b;
 }
 
+.member-profile .client-rating .client__posts .client__post .client__data .data__box {
+  padding-right: 15px;
+}
+
 .member-profile .client-rating .client__posts .client__post .client__data .rate-number {
   background-color: #fca31b;
   border-radius: 50%;
@@ -1391,6 +1399,44 @@ ol {
 
 /*// member popup */
 /* Media */
+@media screen and (max-width: 767px) {
+  .member-profile .client-rating .client__posts .client__post .client__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .member-profile .client-rating .client__posts .client__post .client__data .data__box {
+    padding-right: 0 !important;
+  }
+  .member-profile .client-rating .client__posts .client__post .client__data .rate-number {
+    margin-bottom: 10px;
+  }
+  .member-profile .client-rating .client__posts .client__post .client__data .rate-number::before {
+    left: -9px;
+    right: auto;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  .member-profile .client-rating .client__posts .client__post .client__data .post-date {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .member-profile .client-rating .client__posts .client__post .client__comment {
+    font-size: 14px;
+  }
+  .member-profile .client-rating .client-rating__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .member-profile .client-rating .client-rating__row .rate-container {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+
 /* // Media */
 footer {
   border-top: 1px solid #fca31b;
