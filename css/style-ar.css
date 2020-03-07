@@ -1400,6 +1400,9 @@ ol {
 /*// member popup */
 /* Media */
 @media screen and (max-width: 767px) {
+  .member-profile .member-head h2 {
+    font-size: 1.6rem;
+  }
   .member-profile .client-rating .client__posts .client__post .client__data {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
