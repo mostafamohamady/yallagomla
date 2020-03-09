@@ -171,7 +171,7 @@
                     </li>
                   </ul>
 
-                  <span class="category-box__btn-more">
+                  <span class="category-box__btn-more" type="button"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
                     ...
                   </s>
                 </div>
@@ -933,11 +933,67 @@
     </footer>
     <!-- //Footer -->
 
+      <!-- category modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+
+
+      <div class="modal fade index-cat-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center w-100 text-orange1 " id="exampleModalLabel">الأنشطة</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              <ul class="category-links row ">
+                <li  class="col-5">
+                  <a href="#">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>اضاءة</p>
+                  </a>
+                </li >
+                <li class="col-5">
+                  <a href="#">
+                    <i class="fas fa-shopping-bag"></i>
+                    <p>منتجات جلدية</p>
+                  </a>
+                </li>
+                <li class="col-5">
+                  <a href="#">
+                    <i class="fas fa-gamepad"></i>
+                    <p>لعب اطفال</p>
+                  </a>
+                </li>
+                <li class="col-5">
+                  <a href="#">
+                    <i class="fas fa-paint-brush"></i>
+                    <p>مستحضرات تجميل</p>
+                  </a>
+                </li>
+                <li class="col-5">
+                  <a href="#">
+                    <i class="far fa-gem"></i>
+                    <p>اكسسورارات حريمي</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+      <!-- //category modal -->
+
     <!--  Js inclouds  -->
     <script src="./js/jquery-3.3.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap-rtl.min.js"></script>
     <script src="js/main.js"></script>
     <!-- // Js inclouds -->
+
+
+
   </body>
 </html>
