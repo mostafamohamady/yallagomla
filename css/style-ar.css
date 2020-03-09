@@ -671,16 +671,19 @@ ol {
   position: absolute;
   bottom: 20%;
   left: 10%;
+  padding: 3px;
   cursor: pointer;
   font-size: 14px;
   text-align: center;
-  width: 40px;
-  height: 20px;
+  width: 45px;
+  height: 22px;
+  padding: 5px;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   color: #555;
+  font-size: 12px;
 }
 
 .index-cat-modal .category-links {
@@ -769,7 +772,7 @@ ol {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .main-search .category-box .category-links li:nth-of-type(n + 3) {
+  .main-search .category-box .category-links li:nth-of-type(n + 4) {
     display: none;
   }
   .main-search .category-box .category-links li a {
@@ -785,6 +788,10 @@ ol {
   .main-search .category-box .category-links li a p {
     margin-top: 10px;
     font-size: 12px;
+  }
+  .main-search .category-box .category-box__btn-more {
+    bottom: 0;
+    left: 0;
   }
   .index-cat-modal .category-links li a i {
     font-size: 33px;
