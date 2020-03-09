@@ -653,14 +653,6 @@ ol {
   text-decoration: none;
 }
 
-.main-search .category-box .category-links li a i {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  padding-top: 13px;
-  border-radius: 50%;
-}
-
 .main-search .category-box .category-links li a p {
   margin-top: 10px;
   font-size: 12px;
