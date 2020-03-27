@@ -1,1781 +1,1113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Yalla Gomla</title>
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="./css/bootstrap-rtl.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-    />
-    <link rel="stylesheet" href="./css/style-ar.css" />
-    <!-- //Styles -->
-  </head>
-  <body>
-      <!-- Header -->
-      <header class="yalla-header">
-        <nav class="navbar navbar-expand-lg bg-gray2">
-          <div class="container">
-            <div class=" d-flex w-100 nav-box">
-              <div class="w-100">
-                <div class="d-flex yalla-header__top">
-                  <div class="yalla-header__logo-box">
-                    <a class="navbar-brand" href="index.html">
-                      <img class="" src="./imges/logo/logo2.png" alt="Logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Yalla Gomla</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap-rtl.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+  <link rel="stylesheet" href="./css/style-ar.css" />
+  <!-- //Styles -->
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="yalla-header">
+    <nav class="navbar navbar-expand-lg bg-gray2">
+      <div class="container">
+        <div class=" d-flex w-100 nav-box">
+          <div class="w-100">
+            <div class="d-flex yalla-header__top">
+              <div class="yalla-header__logo-box">
+                <a class="navbar-brand" href="index.html">
+                  <img class="" src="./imges/logo/logo2.png" alt="Logo" />
+                </a>
+              </div>
+              <ul class="social">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav main-navbar">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">الرئيسية</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="events.html">الأحداث</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="offer.html">العروض</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">الأنشطه</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">عنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">الاتصال بنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./members.html">الاعضاء</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav sign-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fas fa-user-alt"></i> الدخول
                     </a>
-                  </div>
-                  <ul class="social">
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-                <div>
-                  <div
-                    class="collapse navbar-collapse justify-content-between"
-                    id="navbarSupportedContent"
-                  >
-                    <ul class="navbar-nav main-navbar">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">الرئيسية</a>
-                      </li>
-                      <li class="nav-item ">
-                        <a class="nav-link" href="events.html">الأحداث</a>
-                      </li>
-                      <li class="nav-item ">
-                        <a class="nav-link" href="offer.html">العروض</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">الأنشطه</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">عنا</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">الاتصال بنا</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./members.html">الاعضاء</a>
-                      </li>
-                    </ul>
-                    <ul class="navbar-nav sign-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">
-                          <i class="fas fa-user-alt"></i> الدخول
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">
-                          <i class="fas fa-user-plus"></i> إنشاء حساب
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fas fa-user-plus"></i> إنشاء حساب
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </nav>
-      </header>
-      <!-- // Header -->
-
-    <!-- Main -->
-    <main>
-      <!-- member-profile -->
-      <section class="member-profile">
-        <div class="container">
-          <!-- member head -->
-          <div class="member-head">
-            <h2 class="text-center text-gray2 pt-4">
-              الحجاز للأكسسوارات الحريمي
-            </h2>
-            <div class="member__profile-img text-center">
-              <img
-                class="rounded-circle img-fluid "
-                src="imges/shop/007.png"
-                alt="member-profile-img"
-              />
-            </div>
-          </div>
-          <!-- // member head -->
-        </div>
-        <!-- member carousel -->
-        <div class="member-carousel mt-3">
-          <div class="swiper-container member-1 swiper-container--custom">
-            <div class="swiper-wrapper popup-gallery">
-              <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/001.png" class="slide__popup"
-                  ><i class="fas fa-plus"></i
-                ></a>
-                <img
-                  class="img-fluid w-100"
-                  src="imges/shop/001.png"
-                  alt="member-photo"
-                />
-              </div>
-              <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/002.png" class="slide__popup"
-                  ><i class="fas fa-plus"></i>
-                </a>
-                <img
-                  class="img-fluid w-100"
-                  src="imges/shop/002.png"
-                  alt="member-photo"
-                />
-              </div>
-              <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/003.png" class="slide__popup"
-                  ><i class="fas fa-plus"></i
-                ></a>
-                <img
-                  class="img-fluid w-100"
-                  src="imges/shop/003.png"
-                  alt="member-photo"
-                />
-              </div>
-              <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/004.png" class="slide__popup"
-                  ><i class="fas fa-plus"></i>
-                </a>
-                <img
-                  class="img-fluid w-100"
-                  src="imges/shop/004.png"
-                  alt="member-photo"
-                />
-              </div>
-              <div class="swiper-slide swiper-slide--custom ">
-                <a href="imges/shop/005.png" class="slide__popup"
-                  ><i class="fas fa-plus"></i>
-                </a>
-                <img
-                  class="img-fluid w-100"
-                  src="imges/shop/005.png"
-                  alt="member-photo"
-                />
-              </div>
-            </div>
-            <div class="swiper-button-next--custom swiper-button-next "></div>
-            <div class="swiper-button-prev swiper-button-prev--custom"></div>
           </div>
         </div>
-        <!-- // member carousel -->
-        <div class="container">
-          <!-- member-details -->
-          <div class="member-details my-4">
-            <div class="row">
-              <div class="col-md-9">
-                <div class="about my-4">
-                  <div class="about__head head-flag">
-                    <span>
-                      عن دندشة
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 25.49 53.71"
-                      >
-                        <g
-                          id="Group_4"
-                          data-name="Group 4"
-                          transform="translate(-932.51 -686)"
-                        >
-                          <path
-                            id="Path_19"
-                            data-name="Path 19"
-                            d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
-                            transform="translate(-1511 185.235)"
-                            fill="#cd7a14"
-                          ></path>
-                        </g>
-                      </svg>
-                    </span>
-                  </div>
-                  <div class="about__body">
-                    <p>
-                      ترتدي السيّدات الإكسسوارات لإبراز أسلوبها الخاص، ولإظهار
-                      شخصيّتها، وتحويل الأزياء الباهتة إلى أزياءٍ ملفتة للنّظر،
-                      فتحتاج إلى مجموعة جيدة من الحقائب، والأوشحة، والحلّي،
-                      والقبّعات، لإبراز مظهرها. ولاختيار الأزياء يجب مراعاة عدّة
-                      أمور، مثل الطّقس، والمناسبة، والأشخاص الذين سيقابلونها،
-                      وأنّ الأضداد تتجاذب، مثل إرتداء فستانٍ قصير مزخْرف وأقراطٍ
-                      كبيرة، وإضافة قطعة من الملابس لم تعتاد على ارتدائها
-                      للإلمام بالموضة، وإضافة ذوقها الخاص إلى الزّي، وأسلوبها
-                      الشّخصي، بالبدأ بقطعة ملابس تحبّها جدًا ثمّ تكملة بقيّة
-                      الزّي
-                    </p>
-                  </div>
-                </div>
-                <!-- //about -->
-                <!-- attached -->
-                <div class="attached my-4  p-4">
-                  <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header p-0" id="headingOne">
-                        <button
-                          class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0 "
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseOne"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="85"
-                            height="85"
-                            viewBox="0 0 85 85"
-                          >
-                            <g
-                              id="Group_55"
-                              data-name="Group 55"
-                              transform="translate(-1610 -1791)"
-                            >
-                              <g
-                                id="Ellipse_56"
-                                data-name="Ellipse 56"
-                                transform="translate(1610 1791)"
-                                fill="#fff"
-                                stroke="#707070"
-                                stroke-width="1"
-                              >
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42.5"
-                                  stroke="none"
-                                />
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42"
-                                  fill="none"
-                                />
-                              </g>
-                              <g
-                                id="Ellipse_62"
-                                data-name="Ellipse 62"
-                                transform="translate(1619 1800)"
-                                fill="none"
-                                stroke="#fca31b"
-                                stroke-width="1"
-                              >
-                                <circle cx="33" cy="33" r="33" stroke="none" />
-                                <circle cx="33" cy="33" r="32.5" fill="none" />
-                              </g>
-                              <g
-                                id="Polygon_1"
-                                data-name="Polygon 1"
-                                transform="translate(1639 1847) rotate(-90)"
-                                fill="none"
-                              >
-                                <path d="M13.5,0,27,23H0Z" stroke="none" />
-                                <path
-                                  d="M 13.5 1.975507736206055 L 1.746494293212891 22 L 25.25350570678711 22 L 13.5 1.975507736206055 M 13.5 0 L 27 23 L 0 23 L 13.5 0 Z"
-                                  stroke="none"
-                                  fill="#fca31b"
-                                />
-                              </g>
-                            </g>
-                          </svg>
-                          <div
-                            class="d-flex justify-content-between w-100 pl-4 "
-                          >
-                            <h5>فديوهات <span>الحجاز</span></h5>
-                            <i class="fas fa-plus  expanded"></i>
-                          </div>
-                        </button>
-                      </div>
-                      <div
-                        id="collapseOne"
-                        class="collapse "
-                        aria-labelledby="headingOne"
-                        data-parent="#accordionExample"
-                      >
-                        <div class="card-body">
-                          <div class="row">
-                            <div class=" col-md-6">
-                               
-                                <iframe
-                                  width="100%"
-                                  height="aute"
-                                  src="https://www.youtube.com/embed/uhqw3BzTrQo"
-                                  frameborder="0"
-                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                  allowfullscreen
-                                ></iframe>
-                              
-                            </div>
-                            <div class="col-md-6">
-                               
-                                <iframe
-                                  width="100%"
-                                  height="aute"
-                                  src="https://www.youtube.com/embed/uhqw3BzTrQo"
-                                  frameborder="0"
-                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                  allowfullscreen
-                                ></iframe>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- // card 1-->
-                    <div class="card">
-                      <div class="card-header p-0" id="headingTwo">
-                        <button
-                          class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="85"
-                            height="85"
-                            viewBox="0 0 85 85"
-                          >
-                            <g
-                              id="Group_54"
-                              data-name="Group 54"
-                              transform="translate(-1612 -1923)"
-                            >
-                              <g
-                                id="Ellipse_57"
-                                data-name="Ellipse 57"
-                                transform="translate(1612 1923)"
-                                fill="#fff"
-                                stroke="#707070"
-                                stroke-width="1"
-                              >
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42.5"
-                                  stroke="none"
-                                />
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42"
-                                  fill="none"
-                                />
-                              </g>
-                              <g
-                                id="Ellipse_63"
-                                data-name="Ellipse 63"
-                                transform="translate(1622 1933)"
-                                fill="none"
-                                stroke="#fca31b"
-                                stroke-width="1"
-                              >
-                                <circle cx="33" cy="33" r="33" stroke="none" />
-                                <circle cx="33" cy="33" r="32.5" fill="none" />
-                              </g>
-                              <path
-                                id="business-time-solid"
-                                d="M31.379,14.171a9.11,9.11,0,1,0,9.11,9.11A9.105,9.105,0,0,0,31.379,14.171Zm4.049,9.508a.616.616,0,0,1-.614.614H30.982a.616.616,0,0,1-.614-.614V18.835a.616.616,0,0,1,.614-.614h.8a.616.616,0,0,1,.614.614v3.434h2.422a.616.616,0,0,1,.614.614ZM31.379,12.147c.342,0,.678.021,1.012.051V9.11a3.114,3.114,0,0,0-3.037-3.037H24.294V3.037A3.114,3.114,0,0,0,21.257,0H11.135A3.114,3.114,0,0,0,8.1,3.037V6.073H3.037A3.114,3.114,0,0,0,0,9.11v5.061H25A11.066,11.066,0,0,1,31.379,12.147ZM20.245,6.073h-8.1V4.049h8.1Zm.431,14.171H13.159a1.012,1.012,0,0,1-1.012-1.012V16.2H0v9.11a3.114,3.114,0,0,0,3.037,3.037H21.474a10.985,10.985,0,0,1-.8-8.1Z"
-                                transform="translate(1634.511 1949.809)"
-                                fill="#aaa"
-                              />
-                            </g>
-                          </svg>
-                          <div
-                            class="d-flex justify-content-between w-100 pl-4 "
-                          >
-                            <h5>اليوم</h5>
-                            <i class="fas fa-plus  expanded"></i>
-                          </div>
-                        </button>
-                      </div>
-                      <div
-                        id="collapseTwo"
-                        class="collapse "
-                        aria-labelledby="headingTwo"
-                        data-parent="#accordionExample"
-                      >
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high
-                          life accusamus terry richardson ad squid. 3 wolf moon
-                          officia aute, non cupidatat skateboard dolor brunch.
-                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                          wolf moon tempor, sunt aliqua put a bird on it squid
-                          single-origin coffee nulla assumenda shoreditch et.
-                          Nihil anim keffiyeh helvetica, craft beer labore wes
-                          anderson cred nesciunt sapiente ea proident. Ad vegan
-                          excepteur butcher vice lomo. Leggings occaecat craft
-                          beer farm-to-table, raw denim aesthetic synth nesciunt
-                          you probably haven't heard of them accusamus labore
-                          sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <!-- // card 2 -->
-                    <div class="card">
-                      <div class="card-header p-0" id="headingThree">
-                        <button
-                          class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="85"
-                            height="85"
-                            viewBox="0 0 85 85"
-                          >
-                            <g
-                              id="Group_57"
-                              data-name="Group 57"
-                              transform="translate(-1612 -2063)"
-                            >
-                              <g
-                                id="Ellipse_58"
-                                data-name="Ellipse 58"
-                                transform="translate(1612 2063)"
-                                fill="#fff"
-                                stroke="#707070"
-                                stroke-width="1"
-                              >
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42.5"
-                                  stroke="none"
-                                />
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42"
-                                  fill="none"
-                                />
-                              </g>
-                              <g
-                                id="Ellipse_64"
-                                data-name="Ellipse 64"
-                                transform="translate(1622 2072)"
-                                fill="none"
-                                stroke="#fca31b"
-                                stroke-width="1"
-                              >
-                                <circle cx="33" cy="33" r="33" stroke="none" />
-                                <circle cx="33" cy="33" r="32.5" fill="none" />
-                              </g>
-                              <g id="Group_56" data-name="Group 56">
-                                <g
-                                  id="Group_13"
-                                  data-name="Group 13"
-                                  transform="translate(3.5 -218.5)"
-                                >
-                                  <line
-                                    id="Line_41"
-                                    data-name="Line 41"
-                                    x1="40"
-                                    transform="translate(1631.5 2311.5)"
-                                    fill="none"
-                                    stroke="#707070"
-                                    stroke-width="1"
-                                  />
-                                  <line
-                                    id="Line_42"
-                                    data-name="Line 42"
-                                    x1="40"
-                                    transform="translate(1631.5 2323.5)"
-                                    fill="none"
-                                    stroke="#707070"
-                                    stroke-width="1"
-                                  />
-                                  <line
-                                    id="Line_43"
-                                    data-name="Line 43"
-                                    x1="40"
-                                    transform="translate(1631.5 2335.5)"
-                                    fill="none"
-                                    stroke="#707070"
-                                    stroke-width="1"
-                                  />
-                                </g>
-                              </g>
-                            </g>
-                          </svg>
+      </div>
+    </nav>
+  </header>
+  <!-- // Header -->
 
-                          <div
-                            class="d-flex justify-content-between w-100 pl-4 "
-                          >
-                            <h5>الوصف</h5>
-                            <i class="fas fa-plus  expanded"></i>
-                          </div>
-                        </button>
-                      </div>
-                      <div
-                        id="collapseThree"
-                        class="collapse "
-                        aria-labelledby="headingThree"
-                        data-parent="#accordionExample"
-                      >
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high
-                          life accusamus terry richardson ad squid. 3 wolf moon
-                          officia aute, non cupidatat skateboard dolor brunch.
-                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                          wolf moon tempor, sunt aliqua put a bird on it squid
-                          single-origin coffee nulla assumenda shoreditch et.
-                          Nihil anim keffiyeh helvetica, craft beer labore wes
-                          anderson cred nesciunt sapiente ea proident. Ad vegan
-                          excepteur butcher vice lomo. Leggings occaecat craft
-                          beer farm-to-table, raw denim aesthetic synth nesciunt
-                          you probably haven't heard of them accusamus labore
-                          sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <!-- // card 3-->
-                    <div class="card">
-                      <div class="card-header p-0" id="headingFour">
-                        <button
-                          class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0 "
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseFour"
-                          aria-expanded="false"
-                          aria-controls="collapseFour"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="85"
-                            height="85"
-                            viewBox="0 0 85 85"
-                          >
-                            <g
-                              id="Group_63"
-                              data-name="Group 63"
-                              transform="translate(-1612 -2203)"
-                            >
-                              <g id="Group_58" data-name="Group 58">
-                                <g
-                                  id="Ellipse_59"
-                                  data-name="Ellipse 59"
-                                  transform="translate(1612 2203)"
-                                  fill="#fff"
-                                  stroke="#707070"
-                                  stroke-width="1"
-                                >
-                                  <circle
-                                    cx="42.5"
-                                    cy="42.5"
-                                    r="42.5"
-                                    stroke="none"
-                                  />
-                                  <circle
-                                    cx="42.5"
-                                    cy="42.5"
-                                    r="42"
-                                    fill="none"
-                                  />
-                                </g>
-                              </g>
-                              <g
-                                id="Ellipse_89"
-                                data-name="Ellipse 89"
-                                transform="translate(1622 2213)"
-                                fill="none"
-                                stroke="#fca31b"
-                                stroke-width="1"
-                              >
-                                <circle cx="33" cy="33" r="33" stroke="none" />
-                                <circle cx="33" cy="33" r="32.5" fill="none" />
-                              </g>
-                              <line
-                                id="Line_44"
-                                data-name="Line 44"
-                                x2="9"
-                                y2="13"
-                                transform="translate(1633.5 2247.5)"
-                                fill="none"
-                                stroke="#707070"
-                                stroke-width="1"
-                              />
-                              <line
-                                id="Line_45"
-                                data-name="Line 45"
-                                x1="34"
-                                y2="23"
-                                transform="translate(1642.5 2237.5)"
-                                fill="none"
-                                stroke="#707070"
-                                stroke-width="1"
-                              />
-                            </g>
-                          </svg>
-
-                          <div
-                            class="d-flex justify-content-between w-100 pl-4 "
-                          >
-                            <h5>وساائل الراحة</h5>
-                            <i class="fas fa-plus  expanded"></i>
-                          </div>
-                        </button>
-                      </div>
-                      <div
-                        id="collapseFour"
-                        class="collapse "
-                        aria-labelledby="headingFour"
-                        data-parent="#accordionExample"
-                      >
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high
-                          life accusamus terry richardson ad squid. 3 wolf moon
-                          officia aute, non cupidatat skateboard dolor brunch.
-                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                          wolf moon tempor, sunt aliqua put a bird on it squid
-                          single-origin coffee nulla assumenda shoreditch et.
-                          Nihil anim keffiyeh helvetica, craft beer labore wes
-                          anderson cred nesciunt sapiente ea proident. Ad vegan
-                          excepteur butcher vice lomo. Leggings occaecat craft
-                          beer farm-to-table, raw denim aesthetic synth nesciunt
-                          you probably haven't heard of them accusamus labore
-                          sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <!-- // card 4-->
-                    <div class="card">
-                      <div class="card-header p-0" id="headingFive">
-                        <button
-                          class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseFive"
-                          aria-expanded="false"
-                          aria-controls="collapseFive"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="85"
-                            height="85"
-                            viewBox="0 0 85 85"
-                          >
-                            <g
-                              id="Group_62"
-                              data-name="Group 62"
-                              transform="translate(-1609 -2346)"
-                            >
-                              <g
-                                id="Ellipse_60"
-                                data-name="Ellipse 60"
-                                transform="translate(1609 2346)"
-                                fill="#fff"
-                                stroke="#707070"
-                                stroke-width="1"
-                              >
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42.5"
-                                  stroke="none"
-                                />
-                                <circle
-                                  cx="42.5"
-                                  cy="42.5"
-                                  r="42"
-                                  fill="none"
-                                />
-                              </g>
-                              <g
-                                id="Ellipse_65"
-                                data-name="Ellipse 65"
-                                transform="translate(1619 2356)"
-                                fill="none"
-                                stroke="#fca31b"
-                                stroke-width="1"
-                              >
-                                <circle cx="33" cy="33" r="33" stroke="none" />
-                                <circle cx="33" cy="33" r="32.5" fill="none" />
-                              </g>
-                              <path
-                                id="envelope-solid"
-                                d="M43.5,74.98a.521.521,0,0,1,.84.407V93.1a4.158,4.158,0,0,1-4.156,4.156H4.156A4.158,4.158,0,0,1,0,93.1V75.4a.518.518,0,0,1,.84-.407c1.94,1.507,4.511,3.42,13.344,9.837,1.827,1.334,4.91,4.139,7.984,4.122,3.091.026,6.235-2.84,7.993-4.122C38.993,78.409,41.556,76.487,43.5,74.98ZM22.168,86.168c2.009.035,4.9-2.529,6.356-3.585,11.491-8.339,12.365-9.066,15.015-11.144a2.072,2.072,0,0,0,.8-1.637V68.156A4.158,4.158,0,0,0,40.179,64H4.156A4.158,4.158,0,0,0,0,68.156V69.8a2.085,2.085,0,0,0,.8,1.637c2.65,2.07,3.524,2.806,15.015,11.144C17.267,83.639,20.159,86.2,22.168,86.168Z"
-                                transform="translate(1629.301 2308)"
-                                fill="#aaa"
-                              />
-                            </g>
-                          </svg>
-
-                          <div
-                            class="d-flex justify-content-between w-100 pl-4 "
-                          >
-                            <h5>رسائل خاصه</h5>
-                            <i class="fas fa-plus  expanded"></i>
-                          </div>
-                        </button>
-                      </div>
-                      <div
-                        id="collapseFive"
-                        class="collapse "
-                        aria-labelledby="headingFive"
-                        data-parent="#accordionExample"
-                      >
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high
-                          life accusamus terry richardson ad squid. 3 wolf moon
-                          officia aute, non cupidatat skateboard dolor brunch.
-                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                          wolf moon tempor, sunt aliqua put a bird on it squid
-                          single-origin coffee nulla assumenda shoreditch et.
-                          Nihil anim keffiyeh helvetica, craft beer labore wes
-                          anderson cred nesciunt sapiente ea proident. Ad vegan
-                          excepteur butcher vice lomo. Leggings occaecat craft
-                          beer farm-to-table, raw denim aesthetic synth nesciunt
-                          you probably haven't heard of them accusamus labore
-                          sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <!-- // card 5-->
-                  </div>
-                </div>
-                <!-- // attached -->
-              </div>
-              <!-- // col -->
-              <div class="col-md-3">
-                <div class="follow my-4">
-                  <div class="follow__head  head-flag">
-                    <span class="text-left">
-                      <span class="p-0 pl-2 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="45.75"
-                          height="52.286"
-                          viewBox="0 0 45.75 52.286"
-                        >
-                          <path
-                            id="share-alt-solid"
-                            d="M35.946,32.679a9.761,9.761,0,0,0-6.106,2.134L19.375,28.271a9.86,9.86,0,0,0,0-4.257l10.466-6.541a9.786,9.786,0,1,0-3.465-5.541L15.909,18.473a9.8,9.8,0,1,0,0,15.34l10.466,6.541a9.8,9.8,0,1,0,9.571-7.675Z"
-                            fill="#fff"
-                          />
-                        </svg>
-                      </span>
-                      <span> تابعنا</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 25.49 53.71"
-                      >
-                        <g
-                          id="Group_4"
-                          data-name="Group 4"
-                          transform="translate(-932.51 -686)"
-                        >
-                          <path
-                            id="Path_19"
-                            data-name="Path 19"
-                            d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
-                            transform="translate(-1511 185.235)"
-                            fill="#cd7a14"
-                          ></path>
-                        </g>
-                      </svg>
-                    </span>
-                  </div>
-                  <div class="follow__body ">
-                    <div class="row">
-                      <div class="col-6 col-md-6 my-2">
-                        <a class="d-block follow__ref" href="#">
-                          <svg
-                            id="facebook-brands"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 88.85 88.5"
-                          >
-                            <path
-                              id="facebook-brands-2"
-                              data-name="facebook-brands"
-                              d="M96.85,52.519A44.425,44.425,0,1,0,45.483,96.5V65.388H34.2V52.519H45.483V42.711c0-11.157,6.628-17.319,16.779-17.319a68.228,68.228,0,0,1,9.945.869V37.21H66.6c-5.517,0-7.239,3.432-7.239,6.953v8.356H71.687l-1.97,12.869H59.366V96.5A44.506,44.506,0,0,0,96.85,52.519Z"
-                              transform="translate(-8 -8)"
-                              fill="#38a3e7"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                      <div class="col-6 col-md-6 my-2">
-                        <a class="d-block follow__ref" href="#">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="88"
-                            height="88"
-                            viewBox="0 0 88 88"
-                          >
-                            <g
-                              id="Group_60"
-                              data-name="Group 60"
-                              transform="translate(-473 -1385)"
-                            >
-                              <g id="Group_49" data-name="Group 49">
-                                <circle
-                                  id="Ellipse_66"
-                                  data-name="Ellipse 66"
-                                  cx="44"
-                                  cy="44"
-                                  r="44"
-                                  transform="translate(473 1385)"
-                                  fill="#60c7f0"
-                                />
-                              </g>
-                              <g
-                                id="twitter-brands"
-                                transform="translate(484.568 1403.292)"
-                              >
-                                <path
-                                  id="twitter-brands-2"
-                                  data-name="twitter-brands"
-                                  d="M57.712,61.1c.041.571.041,1.143.041,1.714,0,17.428-13.265,37.509-37.509,37.509A37.255,37.255,0,0,1,0,94.407a27.276,27.276,0,0,0,3.184.163A26.4,26.4,0,0,0,19.55,88.938,13.206,13.206,0,0,1,7.224,79.8a16.626,16.626,0,0,0,2.49.2,13.943,13.943,0,0,0,3.469-.449A13.185,13.185,0,0,1,2.612,66.612v-.163a13.277,13.277,0,0,0,5.959,1.673A13.2,13.2,0,0,1,4.49,50.49a37.473,37.473,0,0,0,27.183,13.8,14.883,14.883,0,0,1-.327-3.02,13.2,13.2,0,0,1,22.816-9.02,25.955,25.955,0,0,0,8.367-3.184,13.148,13.148,0,0,1-5.8,7.265,26.429,26.429,0,0,0,7.592-2.041A28.339,28.339,0,0,1,57.712,61.1Z"
-                                  transform="translate(0 -48.082)"
-                                  fill="#fff"
-                                />
-                              </g>
-                            </g>
-                          </svg>
-                        </a>
-                      </div>
-                      <div class="col-6 col-md-6 my-2">
-                        <a class="d-block follow__ref" href="#">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="88"
-                            height="88"
-                            viewBox="0 0 88 88"
-                          >
-                            <g
-                              id="Group_51"
-                              data-name="Group 51"
-                              transform="translate(-222 -1629)"
-                            >
-                              <circle
-                                id="Ellipse_67"
-                                data-name="Ellipse 67"
-                                cx="44"
-                                cy="44"
-                                r="44"
-                                transform="translate(222 1629)"
-                                fill="#aa44e3"
-                              />
-                              <g id="Group_50" data-name="Group 50">
-                                <path
-                                  id="instagram-brands"
-                                  d="M23.85,43.476A12.262,12.262,0,1,0,36.112,55.739,12.243,12.243,0,0,0,23.85,43.476Zm0,20.235a7.972,7.972,0,1,1,7.972-7.972,7.987,7.987,0,0,1-7.972,7.972ZM39.474,42.975a2.86,2.86,0,1,1-2.86-2.86A2.854,2.854,0,0,1,39.474,42.975Zm8.122,2.9c-.181-3.831-1.057-7.225-3.863-10.021s-6.19-3.671-10.021-3.863c-3.949-.224-15.784-.224-19.733,0-3.821.181-7.214,1.057-10.021,3.853S.285,42.036.093,45.867c-.224,3.949-.224,15.784,0,19.733.181,3.831,1.057,7.225,3.863,10.021s6.19,3.671,10.021,3.863c3.949.224,15.784.224,19.733,0,3.831-.181,7.225-1.057,10.021-3.863S47.4,69.431,47.6,65.6C47.819,61.651,47.819,49.826,47.6,45.878Zm-5.1,23.959a8.071,8.071,0,0,1-4.546,4.546c-3.148,1.249-10.619.96-14.1.96s-10.96.277-14.1-.96a8.071,8.071,0,0,1-4.546-4.546c-1.249-3.148-.961-10.619-.961-14.1s-.277-10.96.961-14.1a8.071,8.071,0,0,1,4.546-4.546c3.148-1.249,10.619-.961,14.1-.961s10.96-.277,14.1.961a8.071,8.071,0,0,1,4.546,4.546c1.249,3.148.961,10.619.961,14.1S43.743,66.7,42.494,69.837Z"
-                                  transform="translate(241.799 1616.899)"
-                                  fill="#fff"
-                                />
-                              </g>
-                            </g>
-                          </svg>
-                        </a>
-                      </div>
-                      <div class="col-6 col-md-6 my-2">
-                        <a class="d-block follow__ref" href="#">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="87.564"
-                            height="87.564"
-                            viewBox="0 0 87.564 87.564"
-                          >
-                            <path
-                              id="pinterest-brands"
-                              d="M87.564,51.782A43.787,43.787,0,0,1,30.824,93.6c1.783-2.913,4.449-7.679,5.437-11.475.53-2.048,2.719-10.416,2.719-10.416,1.43,2.719,5.6,5.031,10.027,5.031,13.205,0,22.721-12.146,22.721-27.24,0-14.459-11.811-25.28-26.993-25.28-18.89,0-28.935,12.676-28.935,26.5,0,6.426,3.425,14.423,8.88,16.965.83.388,1.271.212,1.465-.583.141-.6.883-3.584,1.218-4.961a1.311,1.311,0,0,0-.3-1.253A17.242,17.242,0,0,1,23.833,50.9c0-9.657,7.309-19,19.772-19,10.751,0,18.29,7.326,18.29,17.813,0,11.846-5.985,20.055-13.77,20.055-4.29,0-7.521-3.548-6.479-7.909,1.236-5.208,3.619-10.822,3.619-14.582,0-3.354-1.8-6.161-5.543-6.161-4.4,0-7.927,4.537-7.927,10.628a15.776,15.776,0,0,0,1.306,6.5s-4.325,18.325-5.12,21.75c-.883,3.778-.53,9.109-.159,12.57A43.786,43.786,0,1,1,87.564,51.782Z"
-                              transform="translate(0 -8)"
-                              fill="#eb1010"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="contact">
-                  <div class="contact__head head-flag">
-                    <span class="text-left">
-                      <span class="p-0 pl-2 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          width="122.821"
-                          height="79.503"
-                          viewBox="0 0 122.821 79.503"
-                        >
-                          <defs>
-                            <filter
-                              id="Path_22"
-                              x="0"
-                              y="0"
-                              width="114.821"
-                              height="79.446"
-                              filterUnits="userSpaceOnUse"
-                            >
-                              <feOffset dy="3" input="SourceAlpha" />
-                              <feGaussianBlur stdDeviation="3" result="blur" />
-                              <feFlood flood-opacity="0.161" />
-                              <feComposite operator="in" in2="blur" />
-                              <feComposite in="SourceGraphic" />
-                            </filter>
-                            <filter
-                              id="Path_23"
-                              x="41"
-                              y="21"
-                              width="81.821"
-                              height="58.503"
-                              filterUnits="userSpaceOnUse"
-                            >
-                              <feOffset dy="3" input="SourceAlpha" />
-                              <feGaussianBlur
-                                stdDeviation="3"
-                                result="blur-2"
-                              />
-                              <feFlood flood-opacity="0.161" />
-                              <feComposite operator="in" in2="blur-2" />
-                              <feComposite in="SourceGraphic" />
-                            </filter>
-                          </defs>
-                          <g
-                            id="Group_64"
-                            data-name="Group 64"
-                            transform="translate(-311.462 -1893.933)"
-                          >
-                            <g id="Group_53" data-name="Group 53">
-                              <g
-                                transform="matrix(1, 0, 0, 1, 311.46, 1893.93)"
-                                filter="url(#Path_22)"
-                              >
-                                <path
-                                  id="Path_22-2"
-                                  data-name="Path 22"
-                                  d="M3979.894,2017.379l19.195-13.436s-23.034-10.238-19.195-28.153,46.067-19.834,46.067-19.834,53.135-1.666,50.2,23.666-51.7,25.332-51.7,25.332h-14.3Z"
-                                  transform="translate(-3970.46 -1949.93)"
-                                  fill="#fff"
-                                />
-                              </g>
-                            </g>
-                            <g
-                              transform="matrix(1, 0, 0, 1, 311.46, 1893.93)"
-                              filter="url(#Path_23)"
-                            >
-                              <path
-                                id="Path_23-2"
-                                data-name="Path 23"
-                                d="M4043,1996.436l-12.653-8.857s15.183-6.748,12.653-18.557-30.366-13.074-30.366-13.074-35.024-1.1-33.093,15.6,34.077,16.7,34.077,16.7h9.428Z"
-                                transform="translate(-3929.46 -1928.93)"
-                                fill="#fff"
-                              />
-                            </g>
-                          </g>
-                        </svg>
-                      </span>
-                      <span class="px-0"> اتصل بنا</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 25.49 53.71"
-                      >
-                        <g
-                          id="Group_4"
-                          data-name="Group 4"
-                          transform="translate(-932.51 -686)"
-                        >
-                          <path
-                            id="Path_19"
-                            data-name="Path 19"
-                            d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
-                            transform="translate(-1511 185.235)"
-                            fill="#cd7a14"
-                          ></path>
-                        </g>
-                      </svg>
-                    </span>
-                  </div>
-                  <div class="contact__body ">
-                    <h6>
-                      <i class="fas fa-map-marker-alt"></i>
-                      <span>الغردقة البحر الاحمر</span>
-                    </h6>
-                    <ul>
-                      <li>
-                        <i class="fas fa-phone"></i>
-                        <span> 010010101010</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-tty"></i>
-                        <span> 010010101010</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-phone"></i>
-                        <span> 010010101010</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-phone"></i>
-                        <span> 010010101010</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <!-- // col -->
+  <!-- Main -->
+  <main>
+    <!-- member-profile -->
+    <section class="member-profile">
+      <div class="container">
+        <!-- member head -->
+        <div class="member-head">
+          <h2 class="text-center text-gray2 pt-4">
+            الحجاز للأكسسوارات الحريمي
+          </h2>
+          <div class="member__profile-img text-center">
+            <img class="rounded-circle img-fluid " src="imges/shop/007.png" alt="member-profile-img" />
+          </div>
+        </div>
+        <!-- // member head -->
+      </div>
+      <!-- member carousel -->
+      <div class="member-carousel mt-3">
+        <div class="swiper-container member-1 swiper-container--custom">
+          <div class="swiper-wrapper popup-gallery">
+            <div class="swiper-slide swiper-slide--custom ">
+              <a href="imges/shop/001.png" class="slide__popup"><i class="fas fa-plus"></i></a>
+              <img class="img-fluid w-100" src="imges/shop/001.png" alt="member-photo" />
+            </div>
+            <div class="swiper-slide swiper-slide--custom ">
+              <a href="imges/shop/002.png" class="slide__popup"><i class="fas fa-plus"></i>
+              </a>
+              <img class="img-fluid w-100" src="imges/shop/002.png" alt="member-photo" />
+            </div>
+            <div class="swiper-slide swiper-slide--custom ">
+              <a href="imges/shop/003.png" class="slide__popup"><i class="fas fa-plus"></i></a>
+              <img class="img-fluid w-100" src="imges/shop/003.png" alt="member-photo" />
+            </div>
+            <div class="swiper-slide swiper-slide--custom ">
+              <a href="imges/shop/004.png" class="slide__popup"><i class="fas fa-plus"></i>
+              </a>
+              <img class="img-fluid w-100" src="imges/shop/004.png" alt="member-photo" />
+            </div>
+            <div class="swiper-slide swiper-slide--custom ">
+              <a href="imges/shop/005.png" class="slide__popup"><i class="fas fa-plus"></i>
+              </a>
+              <img class="img-fluid w-100" src="imges/shop/005.png" alt="member-photo" />
             </div>
           </div>
-          <!-- // member-details -->
-          <!--  video -->
-          <div class="video">
+          <div class="swiper-button-next--custom swiper-button-next "></div>
+          <div class="swiper-button-prev swiper-button-prev--custom"></div>
+        </div>
+      </div>
+      <!-- // member carousel -->
+      <div class="container">
+        <!-- member-details -->
+        <div class="member-details my-4">
+          <div class="row">
             <div class="col-md-9">
-              <iframe
-                width="100%"
-                height="350"
-                src="https://www.youtube.com/embed/uhqw3BzTrQo"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-          <!-- // video -->
-          <!-- offer and events -->
-          <div class="mt-4">
-            <div class="row  ">
-              <div class="col-md-9">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="card shadow-sm card--offer ">
-                      <div class="card-head">
-                        <a href="#">
-                          <img
-                            class="card-img-top"
-                            src="./imges/shop/p1.png"
-                            alt="Card image cap"
-                          />
-                          <div class="sale-box">
-                            <img
-                              src="imges/resource/sale.png"
-                              alt="sale-icon"
-                            />
-                          </div>
-                        </a>
-                      </div>
-
-                      <div class="card-body">
-                        <div class="card-body__title mb-2">
-                          <span class="under-line"> خصم 20% </span>
-                          <span> الخلخال الحريمي </span>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="card-body__addess ">
-                              <p class="mb-1">
-                                <i class="fas fa-bookmark"></i>
-                                <span>5 شارع النصر</span>
-                              </p>
-                            </div>
-                            <div class="card-body__phone">
-                              <p class="mb-0">
-                                <span>اكسسوارات حريمي</span>
-                              </p>
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="offer-container">
-                              <a class="take-offer" href="#">
-                                احصل عل العرض
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card shadow-sm card--events ">
-                      <div class="card-head">
-                        <a href="#">
-                          <img
-                            class="card-img-top"
-                            src="./imges/shop/p1.png"
-                            alt="Card image cap"
-                          />
-                          <span class="event-date">
-                            <img
-                              src="imges/resource/clander.png"
-                              alt="clander-img"
-                            />
-                            <span class="event-date__m"> March</span>
-                            <span class="event-date__d"> 18</span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="card-body__title mb-2">
-                          <span class="under-line"> فتح حاوية جديدة</span>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="card-body__addess ">
-                              <p class="mb-1">
-                                <i class="fas fa-bookmark"></i>
-                                <span>5 شارع النصر</span>
-                              </p>
-                            </div>
-                            <div class="card-body__phone">
-                              <p class="mb-0">
-                                <span>اكسسوارات حريمي</span>
-                              </p>
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="offer-container">
-                              <a class="take-offer" href="#">
-                                معرفة التـفاصيل
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- offer and events -->
-
-          <!--  client rating -->
-          <div class="client-rating  mt-4">
-            <div class="row client-rating__row">
-              <div class="col-md-9">
-                <div class="head-flag">
-                  <span class="text-left">
-                    <span> تقيم العملاء</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 25.49 53.71"
-                    >
-                      <g
-                        id="Group_4"
-                        data-name="Group 4"
-                        transform="translate(-932.51 -686)"
-                      >
-                        <path
-                          id="Path_19"
-                          data-name="Path 19"
+              <div class="about my-4">
+                <div class="about__head head-flag">
+                  <span>
+                    عن دندشة
+                    <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.49 53.71">
+                      <g id="Group_4" data-name="Group 4" transform="translate(-932.51 -686)">
+                        <path id="Path_19" data-name="Path 19"
                           d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
-                          transform="translate(-1511 185.235)"
-                          fill="#cd7a14"
-                        ></path>
+                          transform="translate(-1511 185.235)" fill="#cd7a14"></path>
                       </g>
                     </svg>
                   </span>
                 </div>
-                <div class="client__posts">
-                  <!-- client-post -->
-                  <div class="client__post">
-                    <div
-                      class="client__data d-flex w-100 align-items-center px-0  "
-                    >
-                      <img
-                        class="rounded-circle"
-                        src="imges/shop/person.png"
-                        alt="client-img"
-                      />
-                      <div
-                        class="data__box d-flex w-100 justify-content-between align-items-center "
-                      >
-                        <div>
-                          <span class="rate-number">
-                            4.7
-                          </span>
-                          <span class="client-name">مصطفى محمدى</span>
-                          <span class="post-date">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.135"
-                              height="27.583"
-                              viewBox="0 0 24.135 27.583"
-                            >
-                              <path
-                                id="calendar-alt-regular"
-                                d="M7.973,15.515H5.818a.648.648,0,0,1-.646-.646V12.714a.648.648,0,0,1,.646-.646H7.973a.648.648,0,0,1,.646.646v2.155A.648.648,0,0,1,7.973,15.515Zm5.818-.646V12.714a.648.648,0,0,0-.646-.646H10.99a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,13.792,14.869Zm5.172,0V12.714a.648.648,0,0,0-.646-.646H16.162a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,18.963,14.869Zm-5.172,5.172V17.886a.648.648,0,0,0-.646-.646H10.99a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,13.792,20.041Zm-5.172,0V17.886a.648.648,0,0,0-.646-.646H5.818a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646H7.973A.648.648,0,0,0,8.62,20.041Zm10.344,0V17.886a.648.648,0,0,0-.646-.646H16.162a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,18.963,20.041ZM24.135,6.034V25a2.587,2.587,0,0,1-2.586,2.586H2.586A2.587,2.587,0,0,1,0,25V6.034A2.587,2.587,0,0,1,2.586,3.448H5.172V.646A.648.648,0,0,1,5.818,0H7.973A.648.648,0,0,1,8.62.646v2.8h6.9V.646A.648.648,0,0,1,16.162,0h2.155a.648.648,0,0,1,.646.646v2.8h2.586A2.587,2.587,0,0,1,24.135,6.034Zm-2.586,18.64V8.62H2.586V24.674A.324.324,0,0,0,2.909,25H21.226A.324.324,0,0,0,21.549,24.674Z"
-                                fill="#767676"
-                              />
-                            </svg>
-                            <span class="">
-                              <span>6:30 الساعة</span>
-                              <span>14-01-2020</span>
-                            </span>
-                          </span>
-                        </div>
-                        <a class="post__share shadow p-2" href="#">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="35"
-                            height="35"
-                            viewBox="0 0 30.318 26.528"
-                          >
-                            <path
-                              id="share-solid"
-                              d="M29.826,41.346l-10.422-9a1.422,1.422,0,0,0-2.35,1.076v4.74C7.542,38.271,0,40.178,0,49.192a12.1,12.1,0,0,0,4.935,9.127,1.055,1.055,0,0,0,1.663-1.1c-2.685-8.587,1.274-10.867,10.457-11v5.206A1.422,1.422,0,0,0,19.4,52.5l10.422-9A1.422,1.422,0,0,0,29.826,41.346Z"
-                              transform="translate(0 -32)"
-                              fill="#fca31b"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                    <div
-                      class="client__rate row shadow justify-content-center text-center mt-3"
-                    >
-                      <div class="col-md-3">
-                        <p class="text-gray2 my-2 p-1 shadow rounded-pill">السعر</p>
-                        <div class="rate">
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- half -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 28.065 26.808"
-                          >
-                            <path
-                              id="star-half-alt-solid"
-                              d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
-                              transform="translate(0.004)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // half -->
-                          <!-- empty  -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-regular"
-                              d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // empty -->
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <p class="text-gray2 my-2 p-1 shadow rounded-pill">الجودة</p>
-                        <div class="rate">
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- half -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 28.065 26.808"
-                          >
-                            <path
-                              id="star-half-alt-solid"
-                              d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
-                              transform="translate(0.004)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // half -->
-                          <!-- empty  -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-regular"
-                              d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // empty -->
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <p class="text-gray2 my-2 p-1 shadow rounded-pill">السرعة</p>
-                        <div class="rate">
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- full -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-solid"
-                              d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- //full -->
-                          <!-- half -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 28.065 26.808"
-                          >
-                            <path
-                              id="star-half-alt-solid"
-                              d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
-                              transform="translate(0.004)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // half -->
-                          <!-- empty  -->
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 70.082 67.078"
-                          >
-                            <path
-                              id="star-regular"
-                              d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
-                              transform="translate(-20.5 0.013)"
-                              fill="#fca31b"
-                            ></path>
-                          </svg>
-                          <!-- // empty -->
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <p
-                        class="client__comment my-0 h5 text-gray2 pt-4 text-center"
-                      >
-                        منتج عالى الجوده وسرعة في التسليم
-                      </p>
-                    </div>
-                    <!-- client-rate  -->
-                  </div>
-
-                  <!--// client-post -->
+                <div class="about__body">
+                  <p>
+                    ترتدي السيّدات الإكسسوارات لإبراز أسلوبها الخاص، ولإظهار
+                    شخصيّتها، وتحويل الأزياء الباهتة إلى أزياءٍ ملفتة للنّظر،
+                    فتحتاج إلى مجموعة جيدة من الحقائب، والأوشحة، والحلّي،
+                    والقبّعات، لإبراز مظهرها. ولاختيار الأزياء يجب مراعاة عدّة
+                    أمور، مثل الطّقس، والمناسبة، والأشخاص الذين سيقابلونها،
+                    وأنّ الأضداد تتجاذب، مثل إرتداء فستانٍ قصير مزخْرف وأقراطٍ
+                    كبيرة، وإضافة قطعة من الملابس لم تعتاد على ارتدائها
+                    للإلمام بالموضة، وإضافة ذوقها الخاص إلى الزّي، وأسلوبها
+                    الشّخصي، بالبدأ بقطعة ملابس تحبّها جدًا ثمّ تكملة بقيّة
+                    الزّي
+                  </p>
                 </div>
               </div>
-              <!-- // col -->
-              <div class="col-md-3">
-                <div class="rate-container">
-                  <div class="rate-container__top">
-                    <div class="rate__score text-center">
-                      <div class="number">3.5</div>
-                      <div class="stars">
+              <!-- //about -->
+              <!-- attached -->
+              <div class="attached my-4  p-4">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header p-0" id="headingOne">
+                      <button class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0 " type="button"
+                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+                          <g id="Group_55" data-name="Group 55" transform="translate(-1610 -1791)">
+                            <g id="Ellipse_56" data-name="Ellipse 56" transform="translate(1610 1791)" fill="#fff"
+                              stroke="#707070" stroke-width="1">
+                              <circle cx="42.5" cy="42.5" r="42.5" stroke="none" />
+                              <circle cx="42.5" cy="42.5" r="42" fill="none" />
+                            </g>
+                            <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(1619 1800)" fill="none"
+                              stroke="#fca31b" stroke-width="1">
+                              <circle cx="33" cy="33" r="33" stroke="none" />
+                              <circle cx="33" cy="33" r="32.5" fill="none" />
+                            </g>
+                            <g id="Polygon_1" data-name="Polygon 1" transform="translate(1639 1847) rotate(-90)"
+                              fill="none">
+                              <path d="M13.5,0,27,23H0Z" stroke="none" />
+                              <path
+                                d="M 13.5 1.975507736206055 L 1.746494293212891 22 L 25.25350570678711 22 L 13.5 1.975507736206055 M 13.5 0 L 27 23 L 0 23 L 13.5 0 Z"
+                                stroke="none" fill="#fca31b" />
+                            </g>
+                          </g>
+                        </svg>
+                        <div class="d-flex justify-content-between w-100 pl-4 ">
+                          <h5>فديوهات <span>الحجاز</span></h5>
+                          <i class="fas fa-plus  expanded"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class=" col-md-6">
+
+                            <iframe width="100%" height="aute" src="https://www.youtube.com/embed/uhqw3BzTrQo"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+
+                          </div>
+                          <div class="col-md-6">
+
+                            <iframe width="100%" height="aute" src="https://www.youtube.com/embed/uhqw3BzTrQo"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // card 1-->
+                  <div class="card">
+                    <div class="card-header p-0" id="headingTwo">
+                      <button class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0" type="button"
+                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+                          <g id="Group_54" data-name="Group 54" transform="translate(-1612 -1923)">
+                            <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(1612 1923)" fill="#fff"
+                              stroke="#707070" stroke-width="1">
+                              <circle cx="42.5" cy="42.5" r="42.5" stroke="none" />
+                              <circle cx="42.5" cy="42.5" r="42" fill="none" />
+                            </g>
+                            <g id="Ellipse_63" data-name="Ellipse 63" transform="translate(1622 1933)" fill="none"
+                              stroke="#fca31b" stroke-width="1">
+                              <circle cx="33" cy="33" r="33" stroke="none" />
+                              <circle cx="33" cy="33" r="32.5" fill="none" />
+                            </g>
+                            <path id="business-time-solid"
+                              d="M31.379,14.171a9.11,9.11,0,1,0,9.11,9.11A9.105,9.105,0,0,0,31.379,14.171Zm4.049,9.508a.616.616,0,0,1-.614.614H30.982a.616.616,0,0,1-.614-.614V18.835a.616.616,0,0,1,.614-.614h.8a.616.616,0,0,1,.614.614v3.434h2.422a.616.616,0,0,1,.614.614ZM31.379,12.147c.342,0,.678.021,1.012.051V9.11a3.114,3.114,0,0,0-3.037-3.037H24.294V3.037A3.114,3.114,0,0,0,21.257,0H11.135A3.114,3.114,0,0,0,8.1,3.037V6.073H3.037A3.114,3.114,0,0,0,0,9.11v5.061H25A11.066,11.066,0,0,1,31.379,12.147ZM20.245,6.073h-8.1V4.049h8.1Zm.431,14.171H13.159a1.012,1.012,0,0,1-1.012-1.012V16.2H0v9.11a3.114,3.114,0,0,0,3.037,3.037H21.474a10.985,10.985,0,0,1-.8-8.1Z"
+                              transform="translate(1634.511 1949.809)" fill="#aaa" />
+                          </g>
+                        </svg>
+                        <div class="d-flex justify-content-between w-100 pl-4 ">
+                          <h5>اليوم</h5>
+                          <i class="fas fa-plus  expanded"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. 3 wolf moon
+                        officia aute, non cupidatat skateboard dolor brunch.
+                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                        wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan
+                        excepteur butcher vice lomo. Leggings occaecat craft
+                        beer farm-to-table, raw denim aesthetic synth nesciunt
+                        you probably haven't heard of them accusamus labore
+                        sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // card 2 -->
+                  <div class="card">
+                    <div class="card-header p-0" id="headingThree">
+                      <button class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0" type="button"
+                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+                          <g id="Group_57" data-name="Group 57" transform="translate(-1612 -2063)">
+                            <g id="Ellipse_58" data-name="Ellipse 58" transform="translate(1612 2063)" fill="#fff"
+                              stroke="#707070" stroke-width="1">
+                              <circle cx="42.5" cy="42.5" r="42.5" stroke="none" />
+                              <circle cx="42.5" cy="42.5" r="42" fill="none" />
+                            </g>
+                            <g id="Ellipse_64" data-name="Ellipse 64" transform="translate(1622 2072)" fill="none"
+                              stroke="#fca31b" stroke-width="1">
+                              <circle cx="33" cy="33" r="33" stroke="none" />
+                              <circle cx="33" cy="33" r="32.5" fill="none" />
+                            </g>
+                            <g id="Group_56" data-name="Group 56">
+                              <g id="Group_13" data-name="Group 13" transform="translate(3.5 -218.5)">
+                                <line id="Line_41" data-name="Line 41" x1="40" transform="translate(1631.5 2311.5)"
+                                  fill="none" stroke="#707070" stroke-width="1" />
+                                <line id="Line_42" data-name="Line 42" x1="40" transform="translate(1631.5 2323.5)"
+                                  fill="none" stroke="#707070" stroke-width="1" />
+                                <line id="Line_43" data-name="Line 43" x1="40" transform="translate(1631.5 2335.5)"
+                                  fill="none" stroke="#707070" stroke-width="1" />
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+
+                        <div class="d-flex justify-content-between w-100 pl-4 ">
+                          <h5>الوصف</h5>
+                          <i class="fas fa-plus  expanded"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div id="collapseThree" class="collapse " aria-labelledby="headingThree"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. 3 wolf moon
+                        officia aute, non cupidatat skateboard dolor brunch.
+                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                        wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan
+                        excepteur butcher vice lomo. Leggings occaecat craft
+                        beer farm-to-table, raw denim aesthetic synth nesciunt
+                        you probably haven't heard of them accusamus labore
+                        sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // card 3-->
+                  <div class="card">
+                    <div class="card-header p-0" id="headingFour">
+                      <button class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0 " type="button"
+                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                        aria-controls="collapseFour">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+                          <g id="Group_63" data-name="Group 63" transform="translate(-1612 -2203)">
+                            <g id="Group_58" data-name="Group 58">
+                              <g id="Ellipse_59" data-name="Ellipse 59" transform="translate(1612 2203)" fill="#fff"
+                                stroke="#707070" stroke-width="1">
+                                <circle cx="42.5" cy="42.5" r="42.5" stroke="none" />
+                                <circle cx="42.5" cy="42.5" r="42" fill="none" />
+                              </g>
+                            </g>
+                            <g id="Ellipse_89" data-name="Ellipse 89" transform="translate(1622 2213)" fill="none"
+                              stroke="#fca31b" stroke-width="1">
+                              <circle cx="33" cy="33" r="33" stroke="none" />
+                              <circle cx="33" cy="33" r="32.5" fill="none" />
+                            </g>
+                            <line id="Line_44" data-name="Line 44" x2="9" y2="13" transform="translate(1633.5 2247.5)"
+                              fill="none" stroke="#707070" stroke-width="1" />
+                            <line id="Line_45" data-name="Line 45" x1="34" y2="23" transform="translate(1642.5 2237.5)"
+                              fill="none" stroke="#707070" stroke-width="1" />
+                          </g>
+                        </svg>
+
+                        <div class="d-flex justify-content-between w-100 pl-4 ">
+                          <h5>وساائل الراحة</h5>
+                          <i class="fas fa-plus  expanded"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div id="collapseFour" class="collapse " aria-labelledby="headingFour"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. 3 wolf moon
+                        officia aute, non cupidatat skateboard dolor brunch.
+                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                        wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan
+                        excepteur butcher vice lomo. Leggings occaecat craft
+                        beer farm-to-table, raw denim aesthetic synth nesciunt
+                        you probably haven't heard of them accusamus labore
+                        sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // card 4-->
+                  <div class="card">
+                    <div class="card-header p-0" id="headingFive">
+                      <button class="btn btn-link--custom btn-link d-flex w-100 align-items-center px-0" type="button"
+                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                        aria-controls="collapseFive">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+                          <g id="Group_62" data-name="Group 62" transform="translate(-1609 -2346)">
+                            <g id="Ellipse_60" data-name="Ellipse 60" transform="translate(1609 2346)" fill="#fff"
+                              stroke="#707070" stroke-width="1">
+                              <circle cx="42.5" cy="42.5" r="42.5" stroke="none" />
+                              <circle cx="42.5" cy="42.5" r="42" fill="none" />
+                            </g>
+                            <g id="Ellipse_65" data-name="Ellipse 65" transform="translate(1619 2356)" fill="none"
+                              stroke="#fca31b" stroke-width="1">
+                              <circle cx="33" cy="33" r="33" stroke="none" />
+                              <circle cx="33" cy="33" r="32.5" fill="none" />
+                            </g>
+                            <path id="envelope-solid"
+                              d="M43.5,74.98a.521.521,0,0,1,.84.407V93.1a4.158,4.158,0,0,1-4.156,4.156H4.156A4.158,4.158,0,0,1,0,93.1V75.4a.518.518,0,0,1,.84-.407c1.94,1.507,4.511,3.42,13.344,9.837,1.827,1.334,4.91,4.139,7.984,4.122,3.091.026,6.235-2.84,7.993-4.122C38.993,78.409,41.556,76.487,43.5,74.98ZM22.168,86.168c2.009.035,4.9-2.529,6.356-3.585,11.491-8.339,12.365-9.066,15.015-11.144a2.072,2.072,0,0,0,.8-1.637V68.156A4.158,4.158,0,0,0,40.179,64H4.156A4.158,4.158,0,0,0,0,68.156V69.8a2.085,2.085,0,0,0,.8,1.637c2.65,2.07,3.524,2.806,15.015,11.144C17.267,83.639,20.159,86.2,22.168,86.168Z"
+                              transform="translate(1629.301 2308)" fill="#aaa" />
+                          </g>
+                        </svg>
+
+                        <div class="d-flex justify-content-between w-100 pl-4 ">
+                          <h5>رسائل خاصه</h5>
+                          <i class="fas fa-plus  expanded"></i>
+                        </div>
+                      </button>
+                    </div>
+                    <div id="collapseFive" class="collapse " aria-labelledby="headingFive"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. 3 wolf moon
+                        officia aute, non cupidatat skateboard dolor brunch.
+                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                        wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan
+                        excepteur butcher vice lomo. Leggings occaecat craft
+                        beer farm-to-table, raw denim aesthetic synth nesciunt
+                        you probably haven't heard of them accusamus labore
+                        sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // card 5-->
+                </div>
+              </div>
+              <!-- // attached -->
+            </div>
+            <!-- // col -->
+            <div class="col-md-3">
+              <div class="follow my-4">
+                <div class="follow__head  head-flag">
+                  <span class="text-left">
+                    <span class="p-0 pl-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="45.75" height="auto" viewBox="0 0 45.75 52.286">
+                        <path id="share-alt-solid"
+                          d="M35.946,32.679a9.761,9.761,0,0,0-6.106,2.134L19.375,28.271a9.86,9.86,0,0,0,0-4.257l10.466-6.541a9.786,9.786,0,1,0-3.465-5.541L15.909,18.473a9.8,9.8,0,1,0,0,15.34l10.466,6.541a9.8,9.8,0,1,0,9.571-7.675Z"
+                          fill="#fff" />
+                      </svg>
+                    </span>
+                    <span> تابعنا</span>
+                    <svg class="flag-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.49 53.71">
+                      <g id="Group_4" data-name="Group 4" transform="translate(-932.51 -686)">
+                        <path id="Path_19" data-name="Path 19"
+                          d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
+                          transform="translate(-1511 185.235)" fill="#cd7a14"></path>
+                      </g>
+                    </svg>
+                  </span>
+                </div>
+                <div class="follow__body ">
+                  <div class="row">
+                    <div class="col-6 col-md-6 my-2">
+                      <a class="d-block follow__ref" href="#">
+                        <svg id="facebook-brands" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.85 88.5">
+                          <path id="facebook-brands-2" data-name="facebook-brands"
+                            d="M96.85,52.519A44.425,44.425,0,1,0,45.483,96.5V65.388H34.2V52.519H45.483V42.711c0-11.157,6.628-17.319,16.779-17.319a68.228,68.228,0,0,1,9.945.869V37.21H66.6c-5.517,0-7.239,3.432-7.239,6.953v8.356H71.687l-1.97,12.869H59.366V96.5A44.506,44.506,0,0,0,96.85,52.519Z"
+                            transform="translate(-8 -8)" fill="#38a3e7" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="col-6 col-md-6 my-2">
+                      <a class="d-block follow__ref" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+                          <g id="Group_60" data-name="Group 60" transform="translate(-473 -1385)">
+                            <g id="Group_49" data-name="Group 49">
+                              <circle id="Ellipse_66" data-name="Ellipse 66" cx="44" cy="44" r="44"
+                                transform="translate(473 1385)" fill="#60c7f0" />
+                            </g>
+                            <g id="twitter-brands" transform="translate(484.568 1403.292)">
+                              <path id="twitter-brands-2" data-name="twitter-brands"
+                                d="M57.712,61.1c.041.571.041,1.143.041,1.714,0,17.428-13.265,37.509-37.509,37.509A37.255,37.255,0,0,1,0,94.407a27.276,27.276,0,0,0,3.184.163A26.4,26.4,0,0,0,19.55,88.938,13.206,13.206,0,0,1,7.224,79.8a16.626,16.626,0,0,0,2.49.2,13.943,13.943,0,0,0,3.469-.449A13.185,13.185,0,0,1,2.612,66.612v-.163a13.277,13.277,0,0,0,5.959,1.673A13.2,13.2,0,0,1,4.49,50.49a37.473,37.473,0,0,0,27.183,13.8,14.883,14.883,0,0,1-.327-3.02,13.2,13.2,0,0,1,22.816-9.02,25.955,25.955,0,0,0,8.367-3.184,13.148,13.148,0,0,1-5.8,7.265,26.429,26.429,0,0,0,7.592-2.041A28.339,28.339,0,0,1,57.712,61.1Z"
+                                transform="translate(0 -48.082)" fill="#fff" />
+                            </g>
+                          </g>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="col-6 col-md-6 my-2">
+                      <a class="d-block follow__ref" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+                          <g id="Group_51" data-name="Group 51" transform="translate(-222 -1629)">
+                            <circle id="Ellipse_67" data-name="Ellipse 67" cx="44" cy="44" r="44"
+                              transform="translate(222 1629)" fill="#aa44e3" />
+                            <g id="Group_50" data-name="Group 50">
+                              <path id="instagram-brands"
+                                d="M23.85,43.476A12.262,12.262,0,1,0,36.112,55.739,12.243,12.243,0,0,0,23.85,43.476Zm0,20.235a7.972,7.972,0,1,1,7.972-7.972,7.987,7.987,0,0,1-7.972,7.972ZM39.474,42.975a2.86,2.86,0,1,1-2.86-2.86A2.854,2.854,0,0,1,39.474,42.975Zm8.122,2.9c-.181-3.831-1.057-7.225-3.863-10.021s-6.19-3.671-10.021-3.863c-3.949-.224-15.784-.224-19.733,0-3.821.181-7.214,1.057-10.021,3.853S.285,42.036.093,45.867c-.224,3.949-.224,15.784,0,19.733.181,3.831,1.057,7.225,3.863,10.021s6.19,3.671,10.021,3.863c3.949.224,15.784.224,19.733,0,3.831-.181,7.225-1.057,10.021-3.863S47.4,69.431,47.6,65.6C47.819,61.651,47.819,49.826,47.6,45.878Zm-5.1,23.959a8.071,8.071,0,0,1-4.546,4.546c-3.148,1.249-10.619.96-14.1.96s-10.96.277-14.1-.96a8.071,8.071,0,0,1-4.546-4.546c-1.249-3.148-.961-10.619-.961-14.1s-.277-10.96.961-14.1a8.071,8.071,0,0,1,4.546-4.546c3.148-1.249,10.619-.961,14.1-.961s10.96-.277,14.1.961a8.071,8.071,0,0,1,4.546,4.546c1.249,3.148.961,10.619.961,14.1S43.743,66.7,42.494,69.837Z"
+                                transform="translate(241.799 1616.899)" fill="#fff" />
+                            </g>
+                          </g>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="col-6 col-md-6 my-2">
+                      <a class="d-block follow__ref" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="87.564" height="87.564"
+                          viewBox="0 0 87.564 87.564">
+                          <path id="pinterest-brands"
+                            d="M87.564,51.782A43.787,43.787,0,0,1,30.824,93.6c1.783-2.913,4.449-7.679,5.437-11.475.53-2.048,2.719-10.416,2.719-10.416,1.43,2.719,5.6,5.031,10.027,5.031,13.205,0,22.721-12.146,22.721-27.24,0-14.459-11.811-25.28-26.993-25.28-18.89,0-28.935,12.676-28.935,26.5,0,6.426,3.425,14.423,8.88,16.965.83.388,1.271.212,1.465-.583.141-.6.883-3.584,1.218-4.961a1.311,1.311,0,0,0-.3-1.253A17.242,17.242,0,0,1,23.833,50.9c0-9.657,7.309-19,19.772-19,10.751,0,18.29,7.326,18.29,17.813,0,11.846-5.985,20.055-13.77,20.055-4.29,0-7.521-3.548-6.479-7.909,1.236-5.208,3.619-10.822,3.619-14.582,0-3.354-1.8-6.161-5.543-6.161-4.4,0-7.927,4.537-7.927,10.628a15.776,15.776,0,0,0,1.306,6.5s-4.325,18.325-5.12,21.75c-.883,3.778-.53,9.109-.159,12.57A43.786,43.786,0,1,1,87.564,51.782Z"
+                            transform="translate(0 -8)" fill="#eb1010" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact">
+                <div class="contact__head head-flag">
+                  <span class="text-left">
+                    <span class="p-0 pl-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.821"
+                        height="auto" viewBox="0 0 122.821 79.503">
+                        <defs>
+                          <filter id="Path_22" x="0" y="0" width="114.821" height="79.446" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="3" result="blur" />
+                            <feFlood flood-opacity="0.161" />
+                            <feComposite operator="in" in2="blur" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter id="Path_23" x="41" y="21" width="81.821" height="58.503"
+                            filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="3" result="blur-2" />
+                            <feFlood flood-opacity="0.161" />
+                            <feComposite operator="in" in2="blur-2" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                        </defs>
+                        <g id="Group_64" data-name="Group 64" transform="translate(-311.462 -1893.933)">
+                          <g id="Group_53" data-name="Group 53">
+                            <g transform="matrix(1, 0, 0, 1, 311.46, 1893.93)" filter="url(#Path_22)">
+                              <path id="Path_22-2" data-name="Path 22"
+                                d="M3979.894,2017.379l19.195-13.436s-23.034-10.238-19.195-28.153,46.067-19.834,46.067-19.834,53.135-1.666,50.2,23.666-51.7,25.332-51.7,25.332h-14.3Z"
+                                transform="translate(-3970.46 -1949.93)" fill="#fff" />
+                            </g>
+                          </g>
+                          <g transform="matrix(1, 0, 0, 1, 311.46, 1893.93)" filter="url(#Path_23)">
+                            <path id="Path_23-2" data-name="Path 23"
+                              d="M4043,1996.436l-12.653-8.857s15.183-6.748,12.653-18.557-30.366-13.074-30.366-13.074-35.024-1.1-33.093,15.6,34.077,16.7,34.077,16.7h9.428Z"
+                              transform="translate(-3929.46 -1928.93)" fill="#fff" />
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                    <span class="px-0"> اتصل بنا</span>
+                    <svg class="flag-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.49 53.71">
+                      <g id="Group_4" data-name="Group 4" transform="translate(-932.51 -686)">
+                        <path id="Path_19" data-name="Path 19"
+                          d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
+                          transform="translate(-1511 185.235)" fill="#cd7a14"></path>
+                      </g>
+                    </svg>
+                  </span>
+                </div>
+                <div class="contact__body ">
+                  <h6>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>الغردقة البحر الاحمر</span>
+                  </h6>
+                  <ul>
+                    <li>
+                      <i class="fas fa-phone"></i>
+                      <span> 010010101010</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-tty"></i>
+                      <span> 010010101010</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-phone"></i>
+                      <span> 010010101010</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-phone"></i>
+                      <span> 010010101010</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- // col -->
+          </div>
+        </div>
+        <!-- // member-details -->
+        <!--  video -->
+        <div class="video">
+          <div class="col-md-9">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/uhqw3BzTrQo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- // video -->
+        <!-- offer and events -->
+        <div class="mt-4">
+          <div class="row  ">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card shadow-sm card--offer ">
+                    <div class="card-head">
+                      <a href="#">
+                        <img class="card-img-top" src="./imges/shop/p1.png" alt="Card image cap" />
+                        <div class="sale-box">
+                          <img src="imges/resource/sale.png" alt="sale-icon" />
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="card-body">
+                      <div class="card-body__title mb-2">
+                        <span class="under-line"> خصم 20% </span>
+                        <span> الخلخال الحريمي </span>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card-body__addess ">
+                            <p class="mb-1">
+                              <i class="fas fa-bookmark"></i>
+                              <span>5 شارع النصر</span>
+                            </p>
+                          </div>
+                          <div class="card-body__phone">
+                            <p class="mb-0">
+                              <span>اكسسوارات حريمي</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="offer-container">
+                            <a class="take-offer" href="#">
+                              احصل عل العرض
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card shadow-sm card--events ">
+                    <div class="card-head">
+                      <a href="#">
+                        <img class="card-img-top" src="./imges/shop/p1.png" alt="Card image cap" />
+                        <span class="event-date">
+                          <img src="imges/resource/clander.png" alt="clander-img" />
+                          <span class="event-date__m"> March</span>
+                          <span class="event-date__d"> 18</span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-body__title mb-2">
+                        <span class="under-line"> فتح حاوية جديدة</span>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card-body__addess ">
+                            <p class="mb-1">
+                              <i class="fas fa-bookmark"></i>
+                              <span>5 شارع النصر</span>
+                            </p>
+                          </div>
+                          <div class="card-body__phone">
+                            <p class="mb-0">
+                              <span>اكسسوارات حريمي</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="offer-container">
+                            <a class="take-offer" href="#">
+                              معرفة التـفاصيل
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- offer and events -->
+
+        <!--  client rating -->
+        <div class="client-rating  mt-4">
+          <div class="row client-rating__row">
+            <div class="col-md-9">
+              <div class="head-flag">
+                <span class="text-left">
+                  <span> تقيم العملاء</span>
+                  <svg class="flag-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.49 53.71">
+                    <g id="Group_4" data-name="Group 4" transform="translate(-932.51 -686)">
+                      <path id="Path_19" data-name="Path 19"
+                        d="M2469,554.475h-25.49l16.4-29.353-16.4-24.357H2469v53.71Z"
+                        transform="translate(-1511 185.235)" fill="#cd7a14"></path>
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div class="client__posts">
+                <!-- client-post -->
+                <div class="client__post">
+                  <div class="client__data d-flex w-100 align-items-center px-0  ">
+                    <img class="rounded-circle" src="imges/shop/person.png" alt="client-img" />
+                    <div class="data__box d-flex w-100 justify-content-between align-items-center ">
+                      <div>
+                        <span class="rate-number">
+                          4.7
+                        </span>
+                        <span class="client-name">مصطفى محمدى</span>
+                        <span class="post-date">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.135" height="27.583"
+                            viewBox="0 0 24.135 27.583">
+                            <path id="calendar-alt-regular"
+                              d="M7.973,15.515H5.818a.648.648,0,0,1-.646-.646V12.714a.648.648,0,0,1,.646-.646H7.973a.648.648,0,0,1,.646.646v2.155A.648.648,0,0,1,7.973,15.515Zm5.818-.646V12.714a.648.648,0,0,0-.646-.646H10.99a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,13.792,14.869Zm5.172,0V12.714a.648.648,0,0,0-.646-.646H16.162a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,18.963,14.869Zm-5.172,5.172V17.886a.648.648,0,0,0-.646-.646H10.99a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,13.792,20.041Zm-5.172,0V17.886a.648.648,0,0,0-.646-.646H5.818a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646H7.973A.648.648,0,0,0,8.62,20.041Zm10.344,0V17.886a.648.648,0,0,0-.646-.646H16.162a.648.648,0,0,0-.646.646v2.155a.648.648,0,0,0,.646.646h2.155A.648.648,0,0,0,18.963,20.041ZM24.135,6.034V25a2.587,2.587,0,0,1-2.586,2.586H2.586A2.587,2.587,0,0,1,0,25V6.034A2.587,2.587,0,0,1,2.586,3.448H5.172V.646A.648.648,0,0,1,5.818,0H7.973A.648.648,0,0,1,8.62.646v2.8h6.9V.646A.648.648,0,0,1,16.162,0h2.155a.648.648,0,0,1,.646.646v2.8h2.586A2.587,2.587,0,0,1,24.135,6.034Zm-2.586,18.64V8.62H2.586V24.674A.324.324,0,0,0,2.909,25H21.226A.324.324,0,0,0,21.549,24.674Z"
+                              fill="#767676" />
+                          </svg>
+                          <span class="">
+                            <span>6:30 الساعة</span>
+                            <span>14-01-2020</span>
+                          </span>
+                        </span>
+                      </div>
+                      <a class="post__share shadow p-2" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30.318 26.528">
+                          <path id="share-solid"
+                            d="M29.826,41.346l-10.422-9a1.422,1.422,0,0,0-2.35,1.076v4.74C7.542,38.271,0,40.178,0,49.192a12.1,12.1,0,0,0,4.935,9.127,1.055,1.055,0,0,0,1.663-1.1c-2.685-8.587,1.274-10.867,10.457-11v5.206A1.422,1.422,0,0,0,19.4,52.5l10.422-9A1.422,1.422,0,0,0,29.826,41.346Z"
+                            transform="translate(0 -32)" fill="#fca31b" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="client__rate row shadow justify-content-center text-center mt-3">
+                    <div class="col-md-3">
+                      <p class="text-gray2 my-2 p-1 shadow rounded-pill">السعر</p>
+                      <div class="rate">
                         <!-- full -->
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 70.082 67.078"
-                        >
-                          <path
-                            id="star-solid"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
                             d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                            transform="translate(-20.5 0.013)"
-                            fill="#fca31b"
-                          ></path>
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
                         </svg>
                         <!-- //full -->
                         <!-- full -->
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 70.082 67.078"
-                        >
-                          <path
-                            id="star-solid"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
                             d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                            transform="translate(-20.5 0.013)"
-                            fill="#fca31b"
-                          ></path>
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
                         </svg>
                         <!-- //full -->
                         <!-- full -->
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 70.082 67.078"
-                        >
-                          <path
-                            id="star-solid"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
                             d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
-                            transform="translate(-20.5 0.013)"
-                            fill="#fca31b"
-                          ></path>
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
                         </svg>
                         <!-- //full -->
                         <!-- half -->
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 28.065 26.808"
-                        >
-                          <path
-                            id="star-half-alt-solid"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.065 26.808">
+                          <path id="star-half-alt-solid"
                             d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
-                            transform="translate(0.004)"
-                            fill="#fca31b"
-                          ></path>
+                            transform="translate(0.004)" fill="#fca31b"></path>
                         </svg>
                         <!-- // half -->
                         <!-- empty  -->
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 70.082 67.078"
-                        >
-                          <path
-                            id="star-regular"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-regular"
                             d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
-                            transform="translate(-20.5 0.013)"
-                            fill="#fca31b"
-                          ></path>
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
                         </svg>
                         <!-- // empty -->
                       </div>
                     </div>
-                    <svg
-                      class="circle"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 370 370"
-                    >
-                      <g
-                        id="Group_61"
-                        data-name="Group 61"
-                        transform="translate(-212 -3331)"
-                      >
-                        <circle
-                          id="Ellipse_80"
-                          data-name="Ellipse 80"
-                          cx="185"
-                          cy="185"
-                          r="185"
-                          transform="translate(212 3331)"
-                          fill="#fca31b"
-                        />
-                        <g
-                          id="Ellipse_81"
-                          data-name="Ellipse 81"
-                          transform="translate(236 3355)"
-                          fill="none"
-                          stroke="#fff"
-                          stroke-width="5"
-                        >
-                          <circle cx="161" cy="161" r="161" stroke="none" />
-                          <circle cx="161" cy="161" r="158.5" fill="none" />
-                        </g>
-                        <circle
-                          id="Ellipse_82"
-                          data-name="Ellipse 82"
-                          cx="23.5"
-                          cy="23.5"
-                          r="23.5"
-                          transform="translate(374 3649)"
-                          fill="#fff"
-                        />
-                        <circle
-                          id="Ellipse_83"
-                          data-name="Ellipse 83"
-                          cx="23.5"
-                          cy="23.5"
-                          r="23.5"
-                          transform="translate(374 3335)"
-                          fill="#fff"
-                        />
-                      </g>
-                    </svg>
+                    <div class="col-md-3">
+                      <p class="text-gray2 my-2 p-1 shadow rounded-pill">الجودة</p>
+                      <div class="rate">
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- half -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.065 26.808">
+                          <path id="star-half-alt-solid"
+                            d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
+                            transform="translate(0.004)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- // half -->
+                        <!-- empty  -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-regular"
+                            d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- // empty -->
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <p class="text-gray2 my-2 p-1 shadow rounded-pill">السرعة</p>
+                      <div class="rate">
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- full -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-solid"
+                            d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- //full -->
+                        <!-- half -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.065 26.808">
+                          <path id="star-half-alt-solid"
+                            d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
+                            transform="translate(0.004)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- // half -->
+                        <!-- empty  -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                          <path id="star-regular"
+                            d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
+                            transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                        </svg>
+                        <!-- // empty -->
+                      </div>
+                    </div>
                   </div>
-                  <div class="rate-container__bottom ">
-                    <button class="btn btn--custom">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="18"
-                        height="18"
-                        viewBox="0 0 70.082 67.078"
-                      >
-                        <path
-                          id="star-regular"
-                          d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
-                          transform="translate(-20.5 0.013)"
-                          fill="#fca31b"
-                        ></path>
+                  <div class="col-md-12">
+                    <p class="client__comment my-0 h5 text-gray2 pt-4 text-center">
+                      منتج عالى الجوده وسرعة في التسليم
+                    </p>
+                  </div>
+                  <!-- client-rate  -->
+                </div>
+
+                <!--// client-post -->
+              </div>
+            </div>
+            <!-- // col -->
+            <div class="col-md-3">
+              <div class="rate-container">
+                <div class="rate-container__top">
+                  <div class="rate__score text-center">
+                    <div class="number">3.5</div>
+                    <div class="stars">
+                      <!-- full -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                        <path id="star-solid"
+                          d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                          transform="translate(-20.5 0.013)" fill="#fca31b"></path>
                       </svg>
-                      <span>اكتب تعليقك</span>
-                    </button>
+                      <!-- //full -->
+                      <!-- full -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                        <path id="star-solid"
+                          d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                          transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                      </svg>
+                      <!-- //full -->
+                      <!-- full -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                        <path id="star-solid"
+                          d="M51.781,2.321,43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0Z"
+                          transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                      </svg>
+                      <!-- //full -->
+                      <!-- half -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.065 26.808">
+                        <path id="star-half-alt-solid"
+                          d="M1.433,8.98,9.1,7.864,12.522.933a1.682,1.682,0,0,1,3.011,0l3.426,6.931,7.664,1.115a1.675,1.675,0,0,1,.929,2.858L22.008,17.23l1.312,7.617a1.68,1.68,0,0,1-1.655,1.961,1.655,1.655,0,0,1-.779-.2l-6.856-3.6-6.856,3.6a1.675,1.675,0,0,1-2.434-1.764L6.05,17.231.5,11.839A1.675,1.675,0,0,1,1.433,8.98Zm6.374,6.451.949.923-.224,1.3L7.51,23.6l5.347-2.806,1.172-.615,0-16.608L11.356,8.976l-.585,1.185-1.31.191-5.981.871Z"
+                          transform="translate(0.004)" fill="#fca31b"></path>
+                      </svg>
+                      <!-- // half -->
+                      <!-- empty  -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.082 67.078">
+                        <path id="star-regular"
+                          d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
+                          transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                      </svg>
+                      <!-- // empty -->
+                    </div>
                   </div>
+                  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                    viewBox="0 0 370 370">
+                    <g id="Group_61" data-name="Group 61" transform="translate(-212 -3331)">
+                      <circle id="Ellipse_80" data-name="Ellipse 80" cx="185" cy="185" r="185"
+                        transform="translate(212 3331)" fill="#fca31b" />
+                      <g id="Ellipse_81" data-name="Ellipse 81" transform="translate(236 3355)" fill="none"
+                        stroke="#fff" stroke-width="5">
+                        <circle cx="161" cy="161" r="161" stroke="none" />
+                        <circle cx="161" cy="161" r="158.5" fill="none" />
+                      </g>
+                      <circle id="Ellipse_82" data-name="Ellipse 82" cx="23.5" cy="23.5" r="23.5"
+                        transform="translate(374 3649)" fill="#fff" />
+                      <circle id="Ellipse_83" data-name="Ellipse 83" cx="23.5" cy="23.5" r="23.5"
+                        transform="translate(374 3335)" fill="#fff" />
+                    </g>
+                  </svg>
+                </div>
+                <div class="rate-container__bottom ">
+                  <button class="btn btn--custom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 70.082 67.078">
+                      <path id="star-regular"
+                        d="M86.992,22.455l-19.138-2.79L59.3,2.321a4.2,4.2,0,0,0-7.519,0L43.227,19.664l-19.138,2.79a4.194,4.194,0,0,0-2.319,7.152L35.616,43.1l-3.275,19.06a4.189,4.189,0,0,0,6.078,4.415l17.121-9,17.121,9a4.193,4.193,0,0,0,6.078-4.415L75.465,43.1,89.311,29.607a4.194,4.194,0,0,0-2.319-7.152ZM68.719,40.9l3.1,18.13L55.541,50.474,39.258,59.028l3.1-18.13L29.185,28.061l18.208-2.646L55.541,8.91l8.148,16.505L81.9,28.061,68.719,40.9Z"
+                        transform="translate(-20.5 0.013)" fill="#fca31b"></path>
+                    </svg>
+                    <span>اكتب تعليقك</span>
+                  </button>
                 </div>
               </div>
-              <!-- // col -->
             </div>
-            <!-- // row -->
+            <!-- // col -->
           </div>
-          <!-- //client rating  -->
+          <!-- // row -->
         </div>
-        <!-- // container -->
-      </section>
-      <!-- //member-profile -->
-    </main>
-    <!-- // Main -->
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-auto">
-            <ul class="footer-list">
-              <li class="active">
-                <a href="#">الرئيسية</a>
-              </li>
-              <li class="">
-                <a href="#">الأحداث</a>
-              </li>
-              <li class="">
-                <a href="#">العروض</a>
-              </li>
-              <li class="">
-                <a href="#">الأنشطه</a>
-              </li>
-              <li class="">
-                <a href="#">عنا</a>
-              </li>
-              <li class="">
-                <a href="#">الاتصال بنا</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-auto">
-            <ul class="footer-list">
-              <li class="active">
-                <a href="#">دعنا نساعدك</a>
-              </li>
-              <li class="">
-                <a href="#">مركز المساعدة</a>
-              </li>
-              <li class="">
-                <a href="#">اتصل بنا</a>
-              </li>
-              <li class="">
-                <a href="#">مواعيد التسليم</a>
-              </li>
-              <li class="">
-                <a href="#">سياسة العائد</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-auto">
-            <ul class="footer-list">
-              <li class="active">
-                <a href="#">كيف تشترى من يلا جملة؟</a>
-              </li>
-              <li class="">
-                <a href="#">كيف تدفع على يلا جملة؟</a>
-              </li>
-              <li class="">
-                <a href="#">خدمات للشركات</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-auto">
-            <ul class="footer-list">
-              <li class="active">
-                <a href="#">عن يلا جملة مصر</a>
-              </li>
-              <li class="">
-                <a href="#">وظائف يلا جملة</a>
-              </li>
-              <li class="">
-                <a href="#">الاحكام والشروظ</a>
-              </li>
-              <li class="">
-                <a href="#">سياسة خاصة</a>
-              </li>
-              <li class="">
-                <a href="#">يلا جملة مول</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-auto">
-            <p class="mb-0 text-white">انضم لنا</p>
-            <ul class="footer-list">
-              <li>
-                <a href="#">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-auto">
-            <p class="mb-0 text-white">اتصل بنا</p>
-            <ul class="footer-list">
-              <li>
-                <p>01007266015</p>
-              </li>
-            </ul>
-          </div>
+        <!-- //client rating  -->
+      </div>
+      <!-- // container -->
+    </section>
+    <!-- //member-profile -->
+  </main>
+  <!-- // Main -->
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-auto">
+          <ul class="footer-list">
+            <li class="active">
+              <a href="#">الرئيسية</a>
+            </li>
+            <li class="">
+              <a href="#">الأحداث</a>
+            </li>
+            <li class="">
+              <a href="#">العروض</a>
+            </li>
+            <li class="">
+              <a href="#">الأنشطه</a>
+            </li>
+            <li class="">
+              <a href="#">عنا</a>
+            </li>
+            <li class="">
+              <a href="#">الاتصال بنا</a>
+            </li>
+          </ul>
         </div>
-        <div class="copy-right">
-          <a href="index.html"> جميع حقوق محفوظة &copy; يلا جملة</a>
+        <div class="col-sm-auto">
+          <ul class="footer-list">
+            <li class="active">
+              <a href="#">دعنا نساعدك</a>
+            </li>
+            <li class="">
+              <a href="#">مركز المساعدة</a>
+            </li>
+            <li class="">
+              <a href="#">اتصل بنا</a>
+            </li>
+            <li class="">
+              <a href="#">مواعيد التسليم</a>
+            </li>
+            <li class="">
+              <a href="#">سياسة العائد</a>
+            </li>
+          </ul>
         </div>
-        <div class="footer__logo">
-          <img class="img-fluid" src="imges/logo/logo2.png" alt="" />
+        <div class="col-sm-auto">
+          <ul class="footer-list">
+            <li class="active">
+              <a href="#">كيف تشترى من يلا جملة؟</a>
+            </li>
+            <li class="">
+              <a href="#">كيف تدفع على يلا جملة؟</a>
+            </li>
+            <li class="">
+              <a href="#">خدمات للشركات</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-auto">
+          <ul class="footer-list">
+            <li class="active">
+              <a href="#">عن يلا جملة مصر</a>
+            </li>
+            <li class="">
+              <a href="#">وظائف يلا جملة</a>
+            </li>
+            <li class="">
+              <a href="#">الاحكام والشروظ</a>
+            </li>
+            <li class="">
+              <a href="#">سياسة خاصة</a>
+            </li>
+            <li class="">
+              <a href="#">يلا جملة مول</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-auto">
+          <p class="mb-0 text-white">انضم لنا</p>
+          <ul class="footer-list">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-auto">
+          <p class="mb-0 text-white">اتصل بنا</p>
+          <ul class="footer-list">
+            <li>
+              <p>01007266015</p>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
-    <!-- //Footer -->
+      <div class="copy-right">
+        <a href="index.html"> جميع حقوق محفوظة &copy; يلا جملة</a>
+      </div>
+      <div class="footer__logo">
+        <img class="img-fluid" src="imges/logo/logo2.png" alt="" />
+      </div>
+    </div>
+  </footer>
+  <!-- //Footer -->
 
-    <!--  Js inclouds  -->
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <!-- <script src="./js/jquery-3.3.1.slim.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap-rtl.min.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- // Js inclouds -->
-  </body>
+  <!--  Js inclouds  -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <!-- <script src="./js/jquery-3.3.1.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap-rtl.min.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- // Js inclouds -->
+</body>
+
 </html>

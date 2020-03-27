@@ -1,15 +1,15 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //member Categories toggle
   var windowWidth = $(window).width();
   if (windowWidth < 768) {
-    $("#members-Categories").click(function() {
+    $("#members-Categories").click(function () {
       $("#members-Categories-body").slideToggle("slow");
       $("#members-Categories i").toggleClass("expanded");
     });
   }
 });
 
-(function() {
+(function () {
   var member1 = new Swiper(".member-1", {
     slidesPerView: 4,
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
       prevEl: ".swiper-button-prev"
     },
     on: {
-      resize: function() {
+      resize: function () {
         member1.changeDirection(getDirection());
       }
     },
