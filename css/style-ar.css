@@ -539,6 +539,7 @@ ol {
   width: 100%;
   max-height: 350px;
   border-radius: 15px;
+  border: 2px solid #fca31b;
 }
 
 .side-carsouel .gallery-thumbs {
@@ -551,6 +552,7 @@ ol {
 .side-carsouel .gallery-thumbs .swiper-slide {
   height: 100%;
   opacity: 0.4;
+  border-radius: 15px;
 }
 
 .side-carsouel .gallery-thumbs .swiper-slide-thumb-active {
