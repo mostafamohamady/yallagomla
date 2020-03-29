@@ -1728,6 +1728,7 @@ ol {
     margin-bottom: 10px;
   }
   .offer-detail .details-card .card__text p {
+    text-align: center;
     font-size: 1rem;
   }
 }
@@ -1783,6 +1784,7 @@ ol {
     margin-bottom: 10px;
   }
   .event-detail .details-card .card__text p {
+    text-align: center;
     font-size: 1rem;
   }
 }
