@@ -4,21 +4,8 @@
 /* // color Variables */
 /*Media Query Mixin For Help*/
 /* Prefix Mixin */
-@import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
-body {
-  font-family: "El Messiri", sans-serif, arial;
-  background-color: #fff;
-  font-size: 14px;
-}
-
-ul,
-ol {
-  list-style: none;
-  padding-left: 0;
-  padding-right: 0;
-}
-
 /* background--color */
+@import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
 .bg-gray1 {
   background-color: #aaa;
 }
@@ -70,6 +57,41 @@ ol {
 }
 
 /* // text-color */
+/* imges */
+.img--p1 {
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  width: 100%;
+}
+
+/* // imges */
+/* radius  */
+.rounded-15 {
+  border-radius: 15px;
+}
+
+/* // radius */
+/* fonts */
+.f-20 {
+  font-size: 20px;
+}
+
+/* // fonts */
+body {
+  font-family: "El Messiri", sans-serif, arial;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /*  scrollbar*/
 /* width */
 ::-webkit-scrollbar {
@@ -88,16 +110,6 @@ ol {
 }
 
 /*  // scrollbar*/
-/* imges */
-.img--p1 {
-  padding: 3px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: 1px solid #aaa;
-  width: 100%;
-}
-
-/* // imges */
 @media screen and (max-width: 991px) {
   body {
     font-size: 12px;
@@ -106,6 +118,17 @@ ol {
   .h3 {
     font-size: 1.2rem;
   }
+}
+
+.btn-primary {
+  background-color: #fca31b;
+  border: 1px solid #fca31b;
+}
+
+.btn-primary:hover {
+  background-color: #fca31b;
+  border: 1px solid #fca31b;
+  opacity: 0.6;
 }
 
 .section__title--main {
@@ -438,7 +461,7 @@ ol {
 }
 
 .details-card .card__text p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #585858;
 }
 
@@ -447,12 +470,9 @@ ol {
   font-size: 1rem;
 }
 
-.details-card .card__img {
-  max-width: 150px;
-}
-
 .details-card .card__img img {
   width: 100%;
+  max-width: 150px;
 }
 
 /* End Detaitls Card  */
@@ -539,7 +559,7 @@ ol {
   width: 100%;
   max-height: 350px;
   border-radius: 15px;
-  border: 2px solid #fca31b;
+  border: 1px solid #fca31b;
 }
 
 .side-carsouel .gallery-thumbs {
@@ -1665,6 +1685,108 @@ ol {
 }
 
 /* // Media */
+.offer-detail .side-carsouel .gallery-top {
+  height: 500px;
+}
+
+.offer-detail .side-carsouel .gallery-thumbs {
+  height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-detail .side-carsouel .gallery-top {
+    height: 500px;
+  }
+  .offer-detail .side-carsouel .gallery-thumbs {
+    height: 100px;
+  }
+  .offer-detail .section__title--main .section-title__circle {
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+  }
+  .offer-detail .section__title--main .section-title__text {
+    font-size: 1.2rem;
+  }
+  .offer-detail .remaining-time .title {
+    margin-top: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .offer-detail .remaining-time .time__detail {
+    padding: 7px 0;
+    font-size: 0.8rem;
+  }
+  .offer-detail .details-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .offer-detail .details-card .card__img {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .offer-detail .details-card .card__text p {
+    font-size: 1rem;
+  }
+}
+
+.event-detail .side-carsouel .gallery-top {
+  height: 500px;
+}
+
+.event-detail .side-carsouel .gallery-thumbs {
+  height: 100px;
+}
+
+.event-detail .time__detail:nth-last-of-type(1) {
+  border-radius: 0 15px 15px 0;
+}
+
+.event-detail .time__detail:nth-last-of-type(2) {
+  border-radius: 15px 0 0 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .event-detail .side-carsouel .gallery-top {
+    height: 500px;
+  }
+  .event-detail .side-carsouel .gallery-thumbs {
+    height: 100px;
+  }
+  .event-detail .section__title--main .section-title__circle {
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+  }
+  .event-detail .section__title--main .section-title__text {
+    font-size: 1.2rem;
+  }
+  .event-detail .remaining-time .title {
+    margin-top: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .event-detail .remaining-time .time__detail {
+    padding: 7px 0;
+    font-size: 0.8rem;
+  }
+  .event-detail .details-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .event-detail .details-card .card__img {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .event-detail .details-card .card__text p {
+    font-size: 1rem;
+  }
+}
+
 footer {
   border-top: 1px solid #fca31b;
   border-bottom: 1px solid #fca31b;
