@@ -1,0 +1,26 @@
+<div class="card card--custom shadow-sm card--offer ">
+    <div class="card-head">
+        <a href="{{offer.link}}">
+        <div class="card-head__overlay"></div>
+            <img class="card-img-top" src="{{offer.featured_image.path}}" alt="{{offer.title}}"/>
+           <!-- <div class="sale-box"><img src="{{'assets/img/sale.png'|theme}}" alt="sale-icon"/></div> -->
+           
+           <div class="ribbon ribbon-top-left"><span>اللحق الـعــرض</span></div>
+        </a>
+    </div>
+    <div class="card-body">
+        <div class="card-body__title mb-2"><span class="under-line"> {{offer.title}} </span></div>
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="card-body__addess ">
+                    <p class="mb-1"><i class="fas fa-bookmark"></i><span> {{offer.member_name}} </span></p>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt"></i><span> {{offer.member_address}} </span></p>
+                </div>
+                <div class="card-body__phone"><p class="mb-0"><span> {{offer.section_name}} </span></p></div>
+            </div>
+            <div class="col-sm-5">
+                <div class="offer-container"><a class="btn btn-sm btn-primary" href="{{offer.link}}"> احصل عل العرض </a></div>
+            </div>
+        </div>
+    </div>
+</div>
