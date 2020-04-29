@@ -1927,15 +1927,18 @@ ol {
   opacity: 0.6;
 }
 
-.login .fa-facebook-f {
+.login .icon i {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login .icon .fa-facebook-f {
   color: #41588a;
   background-color: #fff;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  padding: 5px;
-  -webkit-margin-end: 10px;
-          margin-inline-end: 10px;
+  padding: 3px 7px;
 }
 
 /* // Login */
