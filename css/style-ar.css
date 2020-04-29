@@ -1918,6 +1918,11 @@ ol {
 
 /* // Contact us */
 /* Login */
+.login {
+  height: 45vw;
+  padding-top: 5vw;
+}
+
 .login .btn-fb {
   background-color: #41588a;
   color: #fff;
