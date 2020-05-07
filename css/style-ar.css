@@ -1984,6 +1984,23 @@ ol {
 }
 
 /* // Login */
+/* Join Us */
+.join-us .feature-list {
+  margin-bottom: 0;
+}
+
+.join-us .feature-list li {
+  font-size: 16px;
+  color: #585858;
+}
+
+.join-us .feature-list li i {
+  color: #fca31b;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Join Us */
 footer {
   border-top: 1px solid #fca31b;
   border-bottom: 1px solid #fca31b;
